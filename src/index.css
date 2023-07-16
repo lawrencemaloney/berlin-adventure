@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Variables */
+
+/* Global TW  */
+@layer base {
+  * {
+
+  }
+
+  :root {
+    /* flex-grow: 1; */
+    height: 100vh;
+  }
+
+
+
+  body {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+    background-color: rgb(255, 252, 235);
+    letter-spacing: 0.02rem;
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    width: 2vw;
+    height: 2vw;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    /* border-radius: 100vh; */
+    background: #5555;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #7775;
+    border-radius: 100vh;
+    border: 3px solid pink;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #777;
+  }
+
+
+
+
+}

@@ -1,0 +1,40 @@
+.collapsible .toggle {
+    background: white;
+    cursor: pointer;
+    color: red;
+    font-size: 16px;
+    padding: 2px;
+    font-weight: bold;
+    /* border-radius: 5px; */
+    margin: 0;
+    margin-bottom: 1rem;
+    vertical-align: super;
+    width: 20px;
+  }
+  
+  .content {
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    /* font-style: italic; */
+    /* padding: 15PX; */
+    padding: 10px;
+    /* margin: 30px; */
+    display: block;
+    border-radius: 5px;
+  }
+  .content p {
+    font-size: 16px;
+    /* margin: 12px; */
+  
+    line-height: 15px;
+    display: block;
+  }
+  .collapsible .content-parent {
+    margin: 24px 0 0 0;
+    display: inline-block;
+    width: 90%;
+    /* background: white; */
+    transition: height ease 0.4s;
+  }
+  
