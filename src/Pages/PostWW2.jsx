@@ -12,7 +12,7 @@ function PostWW2() {
       <div className="berlinwrap z-20 mx-auto mt-0  flex h-[100%] flex-col items-center ">
         <div className="  mx-auto mt-[40px]  flex flex-col items-center ">
           <h1 className=" mx-[20px] my-6 text-center text-3xl  tablet:text-4xl">
-            Hot War/Cold War - Vietnam/Germany
+            Hot War/Cold War - Vietnam/Germany!!!
           </h1>
           <h2 className="mt-3 text-center  text-2xl">
             What was I getting into?
