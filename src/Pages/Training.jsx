@@ -17,7 +17,7 @@ function Training() {
             Welcome to the Army
           </h1>
           <h2 className=" mt-3 text-center  text-3xl">
-            Fort Dix - Basic Training
+            Fort Dix - Basic Training ????
           </h2>
 
           <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
