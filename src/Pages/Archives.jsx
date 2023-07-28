@@ -12,7 +12,7 @@ function Archives() {
       <div className="archivewrap z-20  mt-0   h-[100%] max-w-full items-center ">
         <div className="texcontainer grid min-h-screen place-items-center">
           <h2 className="  mt-3 text-center  text-3xl">
-            Berlin Observer Archives Test
+            Berlin Observer Archives
           </h2>
 
           <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">

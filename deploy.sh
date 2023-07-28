@@ -6,4 +6,4 @@ npm run build
 
 echo "Deploying files to server..."
 scp -r dist/* larrymm@173.230.133.229:/var/www/maloney-family-server/
-echo "Done! Hopefully"
+echo "Done!"
