@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
     extend: {
+      fontFamily: {
+        robo: ['Roboto']  ,
+        nun: ['Nunito']
+      },      
       padding: {
         "1/3": "33/333333%",
         "2/3": "66.6666",

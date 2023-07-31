@@ -1,9 +1,11 @@
 
 import React from "react";
 // import Header from "./Components/Header";
-import Home from "./Pages/Home";
-import Training from "./Pages/Training";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./Pages/Home";
+import Backstory from "./Pages/Backstory";
+import Training from "./Pages/Training";
 import InBerlin from "./Pages/InBerlin";
 import PostWW2 from "./Pages/PostWW2";
 import BOarticles from "./Pages/BOarticles";
@@ -25,6 +27,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/Home" element={<Home />}></Route>
+        <Route exact path="/Backstory" element={<Backstory />}></Route>
         <Route exact path="/Training" element={<Training />}></Route>
         <Route exact path="/PostWW2" element={<PostWW2 />}></Route>
         <Route exact path="/InBerlin" element={<InBerlin />}></Route>

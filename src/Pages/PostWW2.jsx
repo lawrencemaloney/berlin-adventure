@@ -135,7 +135,7 @@ function PostWW2() {
             German people to fend for themselves with few agricultural,
             industrial, or medical resources.
             <Collapsible icon="]&#8224;]">
-              <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black ">
+              <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18]  ">
                 <p className=" w-[12chr] text-[12px] leading-4">
                   Miller, Roger Gene (2000), To Save a City: The Berlin Airlift,
                   1948–1949, Texas A&M University Press, ISBN 0-89096-967-1.

@@ -31,6 +31,8 @@ export default function Sidebar() {
           <div className="mt-2 ml-8 flex flex-col  space-y-2 text-2xl landscape:mt-6 landscape:grid landscape:grid-cols-2 mobile:landscape:flex ">
             <CustomLink to="/Home">The Lottery</CustomLink>
 
+            <CustomLink to="/Backstory">1960s - The Backstory </CustomLink>
+
             <CustomLink to="/Training">Training</CustomLink>
 
             <CustomLink to="/PostWW2">Hot War/Cold War</CustomLink>
