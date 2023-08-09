@@ -12,7 +12,7 @@ function InBerlin() {
       <div className="berlinwrap z-20 mx-auto mt-0  flex h-[100%] flex-col items-center ">
         <div className="  mx-auto mt-[40px]  flex flex-col items-center ">
           <h3>New York to Frankfurt to Berlin</h3>
-          <p class="hilite">(Tap or hover over pictures below to enlarge.)</p>
+          <p className="hilite">(Tap or hover over pictures below to enlarge.)</p>
 
           <img
             src="..\media\US Army Building in Frankfurt Germany 1970.jpg"

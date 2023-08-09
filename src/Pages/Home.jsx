@@ -10,14 +10,15 @@ function Home() {
         <Header />
         <Sidebar />
 
-      <div className="homewrap z-20 mx-auto mt-0  flex h-[100%] flex-col items-center  tablet:mt-2  ">
+      <div className="homewrap z-20 mx-auto  flex h-[100%] flex-col items-center  ">
 
-        <div className="thedecision z-20 mx-auto mt-[40px]   h-[100%]  ">
-          <h1 className="mx-[20px] mt-[1rem] mb-3 text-center text-3xl 	 tablet:text-4xl">
-          It Began With a Lottery.
+        <div className="thedecision z-20 mx-auto   h-[100%]  ">
+          
+          <h1 className="mx-[20px] font-bold  text-center text-2xl tablet:text-3xl ">
+          It Began With a Lottery
           </h1>
 
-          <p className="   mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px]  text-xl ">
             On December 3, 1969, at the height of American involvement in the
             Vietnam War, I joined the U.S. Army. As with most decisions, my
             choices were remarkably few. I could enlist, live with the
@@ -25,9 +26,10 @@ function Home() {
             events and convictions that influenced my decision were varied,
             complex, and mostly out of my control.
           </p>
-          <h2 className="  mt-3 text-center  text-3xl">The Draft Lottery</h2>
+          <h2 className="  my-3 text-center font-bold text-2xl  tablet:text-2xl">What's Your Number?
+          </h2>
 
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
             The timing of my decision was determined primarily by the outcome of
             a lottery. On December 1, 1969, at Selective Service National
             Headquarters in Washington, D.C., a nationally televised lottery
@@ -37,7 +39,7 @@ function Home() {
             civilians.
           </p>
 
-          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
             <img
               src="images/Draft Lottery glass bowl Pirnie.jpg"
               width="940px"
@@ -46,15 +48,17 @@ function Home() {
             <span className="text-sm leading-none">(Library of Congress)</span>
           </div>
 
-          <h3 className="mt-4  text-center text-2xl underline">The Process</h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+
+          <h2 className="  my-3 text-center font-bold  text-2xl">The Process</h2>
+
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
             366 opaque plastic capsules, each containing a slip of paper with a
             number from 1 to 366 representing each day of the year (366 to
             account for those born on February 29th during leap years), were
             placed in a large glass container and drawn by hand. The number in
             each capsule represented the birth date of each eligible registrant.
           </p>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
             The sequence in which a person’s birth date was drawn determined the
             order in which young men between 18 and 26 were to be called to
             serve. The event was covered live on TV and radio. I remember
@@ -65,32 +69,31 @@ function Home() {
             assigned lottery number 1. The drawing continued until all days of
             the year had been paired with a sequence number.
           </p>
-          <h3 className="mt-4  text-center text-2xl underline">The Results</h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
-            My birth date, November 27, 1947, was on the 47th capsule chosen.
-            (See results card.)
+          <h2 className="  my-3 text-center font-bold  text-2xl">The Results</h2>
+
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+            My birth date, November 27, 1947, was on the 47th capsule chosen.            
           </p>
-          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
-            <img
-              className="mt-4 border-2 border-black"
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
+            <img className="border-2 border-black"
               src="images/lottery-card-1970-marked.jpg"
               alt="Lottery 1969"
               width="880px"
             />
-            <span className="mr-8 text-sm leading-none ">1970 Results.</span>
+            <span className="text-sm leading-none ">1970 Results.</span>
           </div>
-          <h3 className="mt-4 text-center text-2xl  underline">
-            Seeking Advice
-          </h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
-            I decided to get an expert opinion on how long I had until I was
+
+          <h2 className="  my-3 text-center font-bold  text-2xl">Seeking Advice</h2>
+
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+             I decided to get an expert opinion on how long I had until I was
             likely to be drafted. So, on December 3rd, I visited the local Army
             recruitment office in Midland Park, NJ, "You might make it to
             February." the Recruitment Officer said after I told him that my
             lottery number was 47.
           </p>
-          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
-            <img
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">            
+          <img
               className="border-2 border-black"
               src="images/Enlisting.webp"
               alt="Lottery 1969"
@@ -99,15 +102,18 @@ function Home() {
             <span className="text-sm leading-none">U.S. Army Recruiter</span>
           </div>
 
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             I asked him if there was any benefit in volunteering rather than
             waiting to be drafted. He said that my military records would show
             that I was "RA" (Regular Army volunteer) rather than "US,"
             indicating draftee status. He suggested that the Drill Instructors
             (DI) at Basic Training might treat volunteers better than draftees.
           </p>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
-            He also said that enlisting would allow me to schedule my induction
+          {/* <p className="mx-auto my-3 p-2 w-[calc(100%-100px)] max-w-[600px] text-xl ">  */}
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+                   
+           He also said that enlisting would allow me to schedule my induction
             rather than be in a constant state of anticipation. If my RA status
             had a positive impact during my Army career, it certainly wasn't
             obvious during Basic Training.{" "}
@@ -117,30 +123,33 @@ function Home() {
           </p>
           {/* <img className='max-w-[35vw] ' src={sectionDiv} alt='divider' /> */}
 
-          <h2 className="  mt-6 mb-4 text-center text-3xl ">
-            How did I Get Here?
-          </h2>
 
-          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
+          <h1 className="mx-[20px] font-bold  text-center text-2xl tablet:text-3xl ">
+          How did I Get Here?
+          </h1>
+
+          <div className=" my-2   w-[calc(100%-60px)] max-w-[740px]	">
             <img
-              className="border-2 border-black"
+              className=""
               src="images/JTAlicewithCCat500.webp"
               alt="Alice and the Cat"
               width="980px"
             />
           </div>
-          <p className="leading-1 tablet:leading-1 ml-[140px] mb-[6px] -mt-[275px] w-[30ch] text-[12px]  tablet:ml-[246px] tablet:-mt-[475px] tablet:w-[29ch] tablet:text-[20px]">
-            `Would you tell me, please, which way I ought to go from here?'{" "}
-            <br />
-            `That depends a good deal on where you want to get to,' said the
-            Cat. <br />
-            `I don't much care where--' said Alice. <br />
-            `Then it doesn't matter which way you go,' said the Cat. <br />
-            `--so long as I get SOMEWHERE,' Alice added as an explanation.{" "}
-            <br />
+          <div className="leading-tight  ml-[162px]  mb-[6px] -mt-[310px] w-[28ch] text-sm  
+          mobile:leading-normal  mobile:ml-[280px] mobile:-mt-[470px] mobile:w-[29ch] mobile:text-lg  tablet:leading-tight   tablet:ml-[380px] tablet:-mt-[525px] tablet:w-[22ch] tablet:text-xl  	">
+            <div className="py-1">
+              `Would you tell me, please, which way I ought to go from here?'
+            </div>
+            <div className="py-1 px-2">
+            `That depends a good deal on where you want to get to,' said the Cat. </div>
+            <div className="py-2">`I don't much care where--' said Alice.</div>
+            <div className="py-1 px-2">  `Then it doesn't matter which way you go,' said the Cat. </div>
+            <div className="py-2">`--so long as I get SOMEWHERE,' Alice added as an explanation.</div>
+            <div className="py-1 px-2">
             `Oh, you're sure to do that,' said the Cat, `if you only walk long
-            enough
-          </p>
+            enough</div>
+          </div>
           <div className="ml-2 	text-center">
             <Collapsible icon="[&#8224;]">
               <p className="ml-1  max-w-[45ch]  text-[18]	text-black	">
@@ -163,7 +172,8 @@ function Home() {
             </Collapsible>
           </div>
 
-          <p className=" mx-[20px] mt-[12px] max-w-[38ch] text-[20px] leading-[32px] tablet:mt-[22px] tablet:max-w-[40ch] tablet:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             Like Alice, I had no clear idea of where I wanted to "get to" in the
             years and months leading to my enlistment. The war in Vietnam, the
             university I attended, the courses I took, the interests I
@@ -171,11 +181,13 @@ function Home() {
             enlistment decision were not planned,
             <b>at least not by me</b>.
           </p>
-          <h3 className=" mx-[20px] my-3 text-center text-2xl underline">
+          <h2 className="  my-3 text-center font-bold text-2xl  tablet:text-2xl">
             The Decision-Making Process
-          </h3>
+          </h2>
 
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             We make thousands of decisions every day. Some decisions seem so
             easy that we hardly know were making them. Others are so momentous
             that we think of them as “life-changing”. But each decision is
@@ -186,17 +198,19 @@ function Home() {
             influence our decisions, yet there are consequences for our
             decisions and we are held responsible by God for them.
           </p>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             Although I can’t record here all the things that influenced my
             decision to join the Army in December 1969, I thought it would be
             interesting, maybe even helpful, to present a picture of the more
             significant events of my personal life and the political, social,
             cultural, and technological events of the 1960s.
           </p>
-          <h3 className=" mx-[20px] my-3 text-center text-2xl underline">
-            My Personal life and the World Around me
-          </h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <h2 className="  my-3 text-center font-bold text-2xl  tablet:text-2xl">
+            My Personal life and the World Around Me
+          </h2>
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             For nearly the entire decade of the 1960s, from September 1960 to
             May 1969, my personal life focused on high school and college and
             all the interests, activities, and social “angst” like every other
@@ -206,7 +220,8 @@ function Home() {
             during this time. But the impact was there, and, for the purposes of
             the story, they significantly impacted my decision to join the Army.
           </p>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             Unlike many typical high schools in northern New Jersey, Ridgewood
             high school only covered grades 10 through 12. Grades nine through
             11 were housed in two middle school buildings: the Benjamin Franklin
@@ -214,7 +229,8 @@ function Home() {
             school through eighth grade, I spent my “freshman” year of high
             school at George Washington school, about a mile from our house.
           </p>
-          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
+            
             <img
               className="border-2 border-black "
               src="images/GW.jpg"
@@ -225,7 +241,8 @@ function Home() {
               George Washington Middle School, Ridgewood, NJ
             </span>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             From September 1962 to June 1965, I attended Ridgewood high school
             in Ridgewood, New Jersey. I had an unremarkable career there. I
             could get by with minimum effort, and, to my later shame, a minimum
@@ -235,7 +252,7 @@ function Home() {
             building model cars, reading Mad Magazine, and riding our bicycles
             around the neighborhood.
           </p>
-          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
             <img
               className="border-2 border-black "
               src="images/Ridgewood_High_School BW.webp"
@@ -246,7 +263,8 @@ function Home() {
               Ridgewood Highschool, Ridgewood, NJ
             </span>
           </div>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             While I attended the public school in Ridgewood, Dick attended a
             private military high school in Manhattan. As we moved on in our
             high school careers, we began spending weekends and summers mainly
@@ -258,7 +276,7 @@ function Home() {
             parlor, so many a summer day was spent going back and forth between
             the tennis courts and Van Dyk’s. Those were beautiful days.
           </p>
-          <div className="mt-6 max-w-[45ch] tablet:max-w-[75ch]">
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
             <a href="https://www.vandyksicecream.com/">
               {" "}
               <img
@@ -270,23 +288,26 @@ function Home() {
               Van Dyk's Ice Cream, Ridgewwod NJ
             </a>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             While we were able to enjoy a great deal of freedom without much
             responsibility, we were certainly aware of the political, social,
             and cultural events going on around us. The proliferation of
             television sets across the United States brought news of these
             events into our homes every night.
           </p>
-          <h3 className=" mt-4  text-center text-2xl underline ">
+          <h2 className="  my-3 text-center font-bold text-2xl  tablet:text-2xl">
             Off to College -September 1964
-          </h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
+          </h2>
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             As an example of how little control we have over our lives, I
             attended Loyola University in New Orleans because I had received an
             acceptance letter from them in the spring of 1965, even though I had
             never officially applied.
           </p>
-          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             It turned out that Loyola was looking to expand the geographic scope
             of its student base in 1964, and New Jersey was in their target
             zone. They accepted me because I lived in New Jersey and had scored
@@ -310,7 +331,7 @@ function Home() {
             .
           </p>
 
-          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
             <img
               className="border-2 border-black "
               src="images/Loyola Marquette Hall 1960s LA stat archives.webp"
@@ -323,7 +344,8 @@ function Home() {
             </span>
           </div>
 
-          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             With a student deferment in hand, I was not concerned about being
             drafted into military service as I arrived at Loyola for my first
             year. During registration, I had to declare a major field of study.
@@ -339,10 +361,11 @@ function Home() {
             Schools of Business (AACSB). I had to find a new degree program.
           </p>
 
-          <h3 className="mt-4  mb-3 text-center text-2xl underline">
+          <h3 className=" mx-[20px] my-3  font-bold text-center text-2xl italic">
             A Change in Direction
           </h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             Happily, some friends had asked me to join the staff of the
             student-run WVSU-AM radio station, which broadcast to the campus
             over telephone lines (carrier current) from the balcony in the
@@ -361,13 +384,14 @@ function Home() {
             </a>{" "}
             . (Wolf Pack being the mascot of Loyola’s sports teams).
           </p>
-          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             During this same time, Loyola worked with WWL executives to
             introduce a new BA program in Communications (later named Bachelor
             of Arts in Mass Communications) at Loyola. I transferred to that
             program.
           </p>
-          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch]">
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
             <img
               className="border-2 border-black "
               src="images/Me on camera yearbook 1968.webp"
@@ -378,7 +402,8 @@ function Home() {
               That's me on the headset, upper right - from 1968 Loyola Yearbook
             </span>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             I worked as an early morning DJ, a play-by-play radio announcer at
             the Loyola Basketball games, the PA announcer at a few Loyola
             Baseball team and football club games. As a reporter, I had the
@@ -392,7 +417,7 @@ function Home() {
             1968) but did not get to interview them. My friend, Jeff Bray, was
             the MC for the show.{" "}
           </p>
-          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
             <img
               className="border-2 border-black "
               src="images/Loyola_Field_House.jpg"
@@ -403,20 +428,22 @@ function Home() {
               Loyola University Field House, New Orleans, LA
             </span>
           </div>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             After the Department of Communications and changing my major, I was
             able to take courses in TV writing, directing, announcing, and
             camera operation. At the start of my senior year, I was named Senior
             Operations Director for the radio station now named WLDC . These
             skills were to come in handy when I finally got to Berlin.
           </p>
-          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
             I also joined the ROTC was a member of the competitive rifle team,
             and the Drill Team. As far as I know, neither one of these
             activities.
           </p>
 
-          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch]">
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
             <img
               className="border-2 border-black "
               src="images/loyola-cadet-battalion-marches-back-to-campus-from-audubon-park-1966.webp"

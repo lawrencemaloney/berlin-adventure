@@ -15,37 +15,37 @@ export default function Sidebar() {
         ></FaBars>
       ) : (
         <FaTimes
-          className="mobileclose  fixed right-2 top-2 z-50 h-[18px] wIncontin-[18px] cursor-pointer  fill-red-400 stroke-2 tablet:h-[32px] tablet:w-[32px]"
+          className="mobileclose  fixed right-2 top-2 z-50 h-[18px] w-[18px] cursor-pointer  fill-red-400 stroke-2 tablet:h-[32px] tablet:w-[32px]"
           onClick={() => setIsOpen(!isOpen)}
         ></FaTimes>
       )}
 
       <div
-        className={`navbar fixed top-0 right-0 z-40   h-full w-full  bg-[#ccc9bc] p-10 tablet:w-1/4  ${
+        className={`navbar fixed top-0 right-0 z-40   h-full w-full  bg-[#ccc9bc] p-10 mobile:w-[63%] tablet:w-[35%]  ${
           isOpen ? "translate-x-0" : "translate-x-full  "
         } duration-300 ease-in-out`}
       >
-        <p className="-mt-6  text-[32px] ">Pages</p>
+        <p className="-mt-6  text-3xl font-bold  ">Pages</p>
 
         <nav className="">
-          <div className="mt-2 ml-8 flex flex-col  space-y-2 text-2xl landscape:mt-6 landscape:grid landscape:grid-cols-2 mobile:landscape:flex ">
-            <CustomLink to="/Home">The Lottery</CustomLink>
+          <div className="mt-4 ml-4 flex flex-col  space-y-3 text-2xl leading-relaxed	  font-bold landscape:mt-6 landscape:grid landscape:grid-cols-2 mobile:landscape:flex ">
+            <CustomLink to="/Home">&#8883; The Story Begins</CustomLink>
 
-            <CustomLink to="/Backstory">1960s - The Backstory </CustomLink>
+            <CustomLink to="/Backstory">&#8883; The Backstory </CustomLink>
 
-            <CustomLink to="/Training">Training</CustomLink>
+            <CustomLink to="/Training">&#8883; Training</CustomLink>
 
-            <CustomLink to="/PostWW2">Hot War/Cold War</CustomLink>
+            <CustomLink to="/PostWW2">&#8883; Hot War/Cold War</CustomLink>
 
-            <CustomLink to="/InBerlin">In Berlin</CustomLink>
+            <CustomLink to="/InBerlin">&#8883; In Berlin</CustomLink>
 
-            <CustomLink to="/BOarticles">My Journalism</CustomLink>
+            <CustomLink to="/BOarticles">&#8883; My Journalism</CustomLink>
 
-            <CustomLink to="/MyPhotos">My Photos</CustomLink>
+            <CustomLink to="/MyPhotos">&#8883; My Photos</CustomLink>
 
-            <CustomLink to="/Archives">Archives</CustomLink>
+            <CustomLink to="/Archives">&#8883; Archives</CustomLink>
 
-            <CustomLink to="/About">About</CustomLink>
+            <CustomLink to="/About">&#8883; About</CustomLink>
           </div>
         </nav>
       </div>

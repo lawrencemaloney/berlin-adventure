@@ -6,10 +6,12 @@ export default {
   ],
   theme: {
 
+    
     extend: {
       fontFamily: {
-        robo: ['Roboto']  ,
-        nun: ['Nunito']
+        robo: ['Roboto+Slab']  ,
+        nun: ['Nunito'],
+
       },      
       padding: {
         "1/3": "33/333333%",
@@ -31,5 +33,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
