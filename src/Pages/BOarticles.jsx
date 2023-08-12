@@ -60,7 +60,7 @@ function BOarticles() {
               Berlin Observer.com.
             </a>{" "}
           </p>
-          <p className=" mx-[20px] mt-[1rem]  text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className=" mobile:text-[25px] mx-[20px]  mt-[1rem]  text-[20px] leading-[32px] mobile:max-w-[40ch]   laptop:max-w-[60ch] ">
             Not every edition was preserved on this site. For example, there
             were only three editions from 1970, my first year in Berlin. My
             first article appeared in the July 17, 1970 edition, two weeks after

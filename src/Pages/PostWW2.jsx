@@ -290,7 +290,7 @@ function PostWW2() {
           <h3>History of the Berlin Brigade:</h3>
 
           <a
-            href="..\media\Berlin Observer History of B Brigade.pdf" 
+            href="..\media\Berlin Observer History of B Brigade.pdf"
             id="bbspec-pic"
             target="blank"
             rel="noopener noreferrer"

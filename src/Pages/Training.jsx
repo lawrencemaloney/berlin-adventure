@@ -7,11 +7,9 @@ import Sidebar from "../Components/Sidebar";
 function Training() {
   return (
     <>
-        <Header />
-        <Sidebar />
+      <Header />
+      <Sidebar />
       <div className="trainwrap z-20 mx-auto mt-0  flex h-[100%] flex-col items-center ">
-
-
         <div className="  mx-auto mt-[40px]  flex flex-col items-center ">
           <h1 className=" mx-[20px] mt-[1rem] mb-3 text-center text-3xl  tablet:text-4xl">
             Welcome to the Army

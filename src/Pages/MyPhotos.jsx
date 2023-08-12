@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from "react";
 import "../Components/MyPhotos.css";
 import "../index.css";
-import { FaAngleDoubleLeft, FaAngleDoubleRight, FaCamera  } from "react-icons/fa";
+import {
+  FaAngleDoubleLeft,
+  FaAngleDoubleRight,
+  FaCamera,
+} from "react-icons/fa";
 
 import Header from "../Components/Header";
 import Sidebar from "../Components/Sidebar";
 import imageRef from "../Json Files/imagedata.json";
 import ImageSlider from "../Components/ImageSlider";
-
 
 function MyPhotos() {
   const [group, setGroup] = useState("All");
@@ -17,7 +20,6 @@ function MyPhotos() {
 
   const GroupButton = ({ name, handleSetgroup, groupActive }) => {
     return (
-
       <button
         className={`group flex w-3/4 text-white text-2xl my-1 flex-col px-1 mr-4 hover:scale-101  hover:text-yellow-600   ${
           groupActive ? "text-orange-300 " : null
@@ -39,113 +41,93 @@ function MyPhotos() {
     group === "All"
       ? setFilteredImages(imageRef)
       : setFilteredImages(
-          imageRef.filter((imageRef) => imageRef.group === group)
+          imageRef.filter((imageRef) => imageRef.group === group),
         );
   }, [group]);
 
   return (
     <>
-    <Header />
-    <Sidebar />
+      <Header />
+      <Sidebar />
 
+      <div className="fixed text-black  z-30 flex items-center cursor-pointer h-[24px] w-[24px]  left-6 top-120">
+        {!isGrpOpen ? (
+          <FaAngleDoubleLeft
+            className="categoryopen  text-white  z-50 flex items-center cursor-pointer h-[24px] w-[24px] fixed left-2 top-2 font-light	"
+            onClick={() => setIsGrpOpen(!isGrpOpen)}
+          ></FaAngleDoubleLeft>
+        ) : (
+          <FaCamera
+            className="categoryopen  text-4xl text-black  items-center cursor-pointer fixed left-2 top-2 z-50 w-[24px] h-[24px]"
+            onClick={() => setIsGrpOpen(!isGrpOpen)}
+          ></FaCamera>
+        )}
+        <div
+          className={`groupnav top-0 left-0 w-full  tablet:w-1/4 pl-4  bg-[#65645e]  fixed h-full z-40 mobile:w-2/5 ${
+            isGrpOpen ? "-translate-x-full " : "translate-x-0  "
+          } ease-in-out duration-300`}
+        >
+          <div className=" h-full  text-center -mt-9  space-y-4 flex flex-col  text-black ml-12 ">
+            <p className="mt-12 font-semibold  text-white text-[32px] text-left	">
+              Photo Groups
+            </p>
 
-      
-<div className="fixed text-black  z-30 flex items-center cursor-pointer h-[24px] w-[24px]  left-6 top-120">
+            <div className=" ml-8 landscape:grid landscape:grid-cols-2 landscape:mt-6  landscape:w-full mobile:landscape:flex mobile:landscape:flex-col ">
+              <GroupButton
+                name="All"
+                groupActive={group === "All" ? true : false}
+                handleSetgroup={setGroup}
+              />
 
+              <GroupButton
+                name="Army"
+                groupActive={group === "Army" ? true : false}
+                handleSetgroup={setGroup}
+              />
 
+              <GroupButton
+                name="By Request"
+                groupActive={group === "By Request" ? true : false}
+                handleSetgroup={setGroup}
+              />
 
-{!isGrpOpen ? 
-    (
-        <FaAngleDoubleLeft
-          className="categoryopen  text-white  z-50 flex items-center cursor-pointer h-[24px] w-[24px] fixed left-2 top-2 font-light	" onClick={() => setIsGrpOpen(!isGrpOpen)}>
-        </FaAngleDoubleLeft> 
+              <GroupButton
+                name="Berlin"
+                groupActive={group === "Berlin" ? true : false}
+                handleSetgroup={setGroup}
+              />
 
+              <GroupButton
+                name="Amsterdam"
+                groupActive={group === "Amsterdam" ? true : false}
+                handleSetgroup={setGroup}
+              />
 
-    )
-    :
-    (
-      <FaCamera 
-      className="categoryopen  text-4xl text-black  items-center cursor-pointer fixed left-2 top-2 z-50 w-[24px] h-[24px]"
-      
-      onClick={() => setIsGrpOpen(!isGrpOpen)}>
-    </FaCamera>
-
-    )
-}
-      <div
-        className={`groupnav top-0 left-0 w-full  tablet:w-1/4 pl-4  bg-[#65645e]  fixed h-full z-40 mobile:w-2/5 ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
-
-        
-      <div className=" h-full  text-center -mt-9  space-y-4 flex flex-col  text-black ml-12 ">
-
-        <p className="mt-12 font-semibold  text-white text-[32px] text-left	">Photo Groups</p>
-
-
-        <div className=" ml-8 landscape:grid landscape:grid-cols-2 landscape:mt-6  landscape:w-full mobile:landscape:flex mobile:landscape:flex-col ">
-
-        <GroupButton
-          name="All"
-          groupActive={group === "All" ? true : false}
-          handleSetgroup={setGroup}
-        />
-
-        <GroupButton
-          name="Army"
-          groupActive={group === "Army" ? true : false}
-          handleSetgroup={setGroup}
-        />
-
-        <GroupButton
-          name="By Request"
-          groupActive={group === "By Request" ? true : false}
-          handleSetgroup={setGroup}
-        />
-
-        <GroupButton
-          name="Berlin"
-          groupActive={group === "Berlin" ? true : false}
-          handleSetgroup={setGroup}
-        />
-
-        <GroupButton
-          name="Amsterdam"
-          groupActive={group === "Amsterdam" ? true : false}
-          handleSetgroup={setGroup}
-        />
-
-        <GroupButton
-          name="Ferry"
-          groupActive={group === "Ferry" ? true : false}
-          handleSetgroup={setGroup}
-        />
-        <GroupButton
-          name="London"
-          groupActive={group === "London" ? true : false}
-          handleSetgroup={setGroup}
-        />
-        <GroupButton
-          name="Oxford"
-          groupActive={group === "Oxford" ? true : false}
-          handleSetgroup={setGroup}
-        />
-
-
+              <GroupButton
+                name="Ferry"
+                groupActive={group === "Ferry" ? true : false}
+                handleSetgroup={setGroup}
+              />
+              <GroupButton
+                name="London"
+                groupActive={group === "London" ? true : false}
+                handleSetgroup={setGroup}
+              />
+              <GroupButton
+                name="Oxford"
+                groupActive={group === "Oxford" ? true : false}
+                handleSetgroup={setGroup}
+              />
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-</div>
-
-
-
-
 
       <div className="pageContainer  ml-[5px] flex w-full flex-col    text-black  ">
         <h1 className="  text-center text-3xl">My Photos</h1>
 
         <div className="textimagecontainer z-0  m-[2%] h-full w-[90%] 	">
-
           <div className="textcontainer mx-8  mb-[2rem]  text-[22px] leading-[32px]    ">
-
             {group === "Army" && (
               <div className="p-2     leading-[32px]  	">
                 These are some of the photos I took while in the Army as part of

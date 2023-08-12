@@ -1,4 +1,3 @@
-
 import Header from "../Components/Header";
 import Collapsible from "../Components/Collapsible";
 import Sidebar from "../Components/Sidebar";
@@ -9,18 +8,18 @@ function Backstory() {
       <Header />
       <Sidebar />
 
-<div className="events z-20 mx-auto mt-0  flex h-[100%] flex-col items-center  tablet:mt-2">
-<div className="thedecision z-20 mx-auto my-3  h-[100%]  ">
-  {/* <h1 className="mx-[20px] font-bold my-2 text-center text-3xl ">
+      <div className="events z-20 mx-auto mt-0  flex h-[100%] flex-col items-center  tablet:mt-2">
+        <div className="thedecision z-20 mx-auto my-3  h-[100%]  ">
+          {/* <h1 className="mx-[20px] font-bold my-2 text-center text-3xl ">
   The Backstory
   </h1> */}
-    {/* <h1 className="font-bold mb-4 text-center text-3xl ">
+          {/* <h1 className="font-bold mb-4 text-center text-3xl ">
       Backstory
     </h1> */}
 
-    <h1 className="font-bold mb-4 text-center text-2xl ">
-      A Decade that Shaped My Course
-    </h1>
+          <h1 className="font-bold mb-4 text-center text-2xl ">
+            A Decade that Shaped My Course
+          </h1>
 
           <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-2xl leading-[32px] mobile:max-w-[40ch] mobile:text-[22px]  laptop:max-w-[60ch]">
             While I was busy dealing with the day-to-day events that were common
@@ -508,10 +507,9 @@ function Backstory() {
             North and South Vietnam were reunified the following year.
           </p>
         </div>
-        </div>
-        </>
-        );
-      }
-      
-      export default Backstory;
-      
+      </div>
+    </>
+  );
+}
+
+export default Backstory;
