@@ -1,7 +1,7 @@
 // import React, { useState, useRef } from "react";
-import Header from "../Components/Header";
-import Collapsible from "../Components/Collapsible";
-import Sidebar from "../Components/Sidebar";
+import Header from "../Components/Header"
+import Collapsible from "../Components/Collapsible"
+import Sidebar from "../Components/Sidebar"
 
 function Home() {
   return (
@@ -192,31 +192,37 @@ function Home() {
             <b>at least not by me</b>.
           </p>
           <h2 className="  my-3 text-center font-bold text-2xl  tablet:text-2xl">
-            A Decade of Decision
+            The 1960s - A Decade that Shaped My Decision{" "}
           </h2>
 
           <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
-            We make thousands of decisions every day. Some seem so easy that we
-            are hardly aware of making them. Others are so momentous that we
-            think of them as “life-changing” and agonize over them for days,
-            weeks, months, or even years.
+            The dramatic cultural, social, and political events of the 1960s
+            significantly impacted my decision to join the Army during a hot
+            war. For almost the entirety of the decade, my personal life was
+            focused on high school and college. (September 1962 through May
+            1969).
           </p>
           <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
-            Our daily interactions with family, friends, the various communities
-            in which we live, and our mental, physical, and spiritual health all
-            influence our decision-making. We have very little control over
-            these influences, yet there are expected and unexpected consequences
-            for our decisions, both in the spiritual and physical parts of our
-            lives.
+            At the forefront of my mind during this period were sports,
+            developing friendships, the relatively new technologies of
+            television and transistor radios. The significance of these 2
+            technologies not be underestimated. For the first time in history,
+            events anywhere in the world could be seen on the evening news in
+            your living room. Transistor radios, and later, portable cassette
+            and 8-Track Tape players, made it possible to be constantly
+            influenced by the music base culture of the world.
+            <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
+              <img
+                className="border-2 border-black "
+                src="images/8-tracks (i pinimg).jpg"
+                alt="8 track tape player in the car"
+                width="980px"
+              />
+              <span className="text-sm leading-none">
+                8-Track Tape Player in car.
+              </span>
+            </div>
           </p>
-
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
-            From September 1962 through May 1965, the focus of my life was on
-            the interests, activities, and social “angst” that occupied the
-            lives of every other teenager who attended high school and college
-            in the 60s.
-          </p>
-
           <h3 className=" mx-[20px] my-3  font-bold text-center border border-solid border-zinc-700 text-2xl italic">
             1962 to 1965 - My Highschool Years{" "}
           </h3>
@@ -443,7 +449,7 @@ function Home() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home
