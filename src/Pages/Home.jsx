@@ -11,11 +11,9 @@ function Home() {
 
       <div className="homewrap z-20 mx-auto  flex h-[100%] flex-col items-center  ">
         <div className="thedecision z-20 mx-auto   h-[100%]  ">
-          <h1 className="mx-[20px] font-bold  text-center text-2xl tablet:text-3xl ">
-            It Began With a Lottery
-          </h1>
+          <h1 className="h1-std">It Began With a Lottery</h1>
 
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px]  text-xl ">
+          <p className="para-std">
             On December 3, 1969, at the height of American involvement in the
             Vietnam War, I joined the U.S. Army. As with most decisions, my
             choices were remarkably few. I could enlist, live with the
@@ -23,11 +21,9 @@ function Home() {
             events and convictions that influenced my decision were varied,
             complex, and mostly out of my control.
           </p>
-          <h2 className="  my-3 text-center font-bold text-2xl  tablet:text-2xl">
-            What's Your Number?
-          </h2>
+          <h2 className="h2-std">What's Your Number?</h2>
 
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className=" para-std ">
             The timing of my decision was determined primarily by the outcome of
             a lottery. On December 1, 1969, at Selective Service National
             Headquarters in Washington, D.C., a nationally televised lottery
@@ -46,18 +42,17 @@ function Home() {
             <span className="text-sm leading-none">(Library of Congress)</span>
           </div>
 
-          <h2 className="  my-3 text-center font-bold  text-2xl">
-            The Process
-          </h2>
+          <h2 className="h2-std">The Process</h2>
 
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             366 opaque plastic capsules, each containing a slip of paper with a
             number from 1 to 366 representing each day of the year (366 to
             account for those born on February 29th during leap years), were
             placed in a large glass container and drawn by hand. The number in
             each capsule represented the birth date of each eligible registrant.
           </p>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
+            {" "}
             The sequence in which a person’s birth date was drawn determined the
             order in which young men between 18 and 26 were to be called to
             serve. The event was covered live on TV and radio. I remember
@@ -68,11 +63,9 @@ function Home() {
             assigned lottery number 1. The drawing continued until all days of
             the year had been paired with a sequence number.
           </p>
-          <h2 className="  my-3 text-center font-bold  text-2xl">
-            The Results
-          </h2>
+          <h2 className="h2-std">The Results</h2>
 
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             My birth date, November 27, 1947, was on the 47th capsule chosen.
           </p>
           <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
@@ -85,11 +78,9 @@ function Home() {
             <span className="text-sm leading-none ">1970 Results.</span>
           </div>
 
-          <h2 className="  my-3 text-center font-bold  text-2xl">
-            Seeking Advice
-          </h2>
+          <h2 className="h2-std">Seeking Advice</h2>
 
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std ">
             I decided to get an expert opinion on how long I had until I was
             likely to be drafted. So, on December 3rd, I visited the local Army
             recruitment office in Midland Park, NJ, "You might make it to
@@ -106,7 +97,7 @@ function Home() {
             <span className="text-sm leading-none">U.S. Army Recruiter</span>
           </div>
 
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             I asked him if there was any benefit in volunteering rather than
             waiting to be drafted. He said that my military records would show
             that I was "RA" (Regular Army volunteer) rather than "US,"
@@ -114,7 +105,7 @@ function Home() {
             (DI) at Basic Training might treat volunteers better than draftees.
           </p>
           {/* <p className="mx-auto my-3 p-2 w-[calc(100%-100px)] max-w-[600px] text-xl ">  */}
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             He also said that enlisting would allow me to schedule my induction
             rather than be in a constant state of anticipation. If my RA status
             had a positive impact during my Army career, it certainly wasn't
@@ -125,9 +116,7 @@ function Home() {
           </p>
           {/* <img className='max-w-[35vw] ' src={sectionDiv} alt='divider' /> */}
 
-          <h1 className="mx-[20px] font-bold  text-center text-2xl tablet:text-3xl ">
-            How did I Get Here?
-          </h1>
+          <h1 className="h1-std ">How did I Get Here?</h1>
 
           <div className=" my-2   w-[calc(100%-60px)] max-w-[740px]	">
             <img
@@ -183,7 +172,7 @@ function Home() {
             </Collapsible>
           </div>
 
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             Like Alice, I had no clear idea of where I wanted to "get to" in the
             years and months leading to my enlistment. The war in Vietnam, the
             university I attended, the courses I took, the interests I
@@ -191,18 +180,18 @@ function Home() {
             enlistment decision were not planned,
             <b>at least not by me</b>.
           </p>
-          <h2 className="  my-3 text-center font-bold text-2xl  tablet:text-2xl">
+          <h2 className="h2-std">
             The 1960s - A Decade that Shaped My Decision{" "}
           </h2>
 
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std ">
             The dramatic cultural, social, and political events of the 1960s
             significantly impacted my decision to join the Army during a hot
             war. For almost the entirety of the decade, my personal life was
             focused on high school and college. (September 1962 through May
             1969).
           </p>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std ">
             At the forefront of my mind during this period were sports,
             developing friendships, the relatively new technologies of
             television and transistor radios. The significance of these 2
@@ -223,10 +212,8 @@ function Home() {
               </span>
             </div>
           </p>
-          <h3 className=" mx-[20px] my-3  font-bold text-center border border-solid border-zinc-700 text-2xl italic">
-            1962 to 1965 - My Highschool Years{" "}
-          </h3>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <h3 className=" h3-box">1962 to 1965 - My Highschool Years </h3>
+          <p className="para-std">
             From September 1962 to June 1965, I attended high school in
             Ridgewood, New Jersey. Unlike many typical high schools in northern
             New Jersey, Ridgewood high school was a three-year school covering
@@ -245,7 +232,7 @@ function Home() {
               George Washington Middle School, Ridgewood, NJ
             </span>
           </div>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             I had an unremarkable career there. I could get by with minimum
             effort, and, to my later shame, a minimum effort is what I gave. I
             was more interested in my activities away from school. From 6th
@@ -265,7 +252,7 @@ function Home() {
               Ridgewood Highschool, Ridgewood, NJ
             </span>
           </div>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             While I attended the public school in Ridgewood, Dick attended a
             private military high school in Manhattan. As we moved on in our
             high school careers, we began spending weekends and summers mainly
@@ -289,23 +276,21 @@ function Home() {
               Van Dyk's Ice Cream, Ridgewwod NJ
             </a>
           </div>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             While we were able to enjoy a great deal of freedom without much
             responsibility, we were certainly aware of the political, social,
             and cultural events going on around us. The proliferation of
             television sets across the United States brought news of these
             events into our homes every night.
           </p>
-          <h2 className="  my-3 text-center font-bold text-2xl  tablet:text-2xl">
-            Off to College -September 1964
-          </h2>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <h2 className="h2-std">Off to College -September 1964</h2>
+          <p className="para-std">
             As an example of how little control we have over our lives, I
             attended Loyola University in New Orleans because I had received an
             acceptance letter from them in the spring of 1965, even though I had
             never officially applied.
           </p>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             It turned out that Loyola was looking to expand the geographic scope
             of its student base in 1964, and New Jersey was in their target
             zone. They accepted me because I lived in New Jersey and had scored
@@ -342,7 +327,7 @@ function Home() {
             </span>
           </div>
 
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             With a student deferment in hand, I was not concerned about being
             drafted into military service as I arrived at Loyola for my first
             year. During registration, I had to declare a major field of study.
@@ -358,10 +343,8 @@ function Home() {
             Schools of Business (AACSB). I had to find a new degree program.
           </p>
 
-          <h3 className=" mx-[20px] my-3  font-bold text-center text-2xl italic">
-            A Change in Direction
-          </h3>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <h3 className="h3-std">A Change in Direction</h3>
+          <p className="para-std">
             Happily, some friends had asked me to join the staff of the
             student-run WVSU-AM radio station, which broadcast to the campus
             over telephone lines (carrier current) from the balcony in the
@@ -380,7 +363,7 @@ function Home() {
             </a>{" "}
             . (Wolf Pack being the mascot of Loyola’s sports teams).
           </p>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             During this same time, Loyola worked with WWL executives to
             introduce a new BA program in Communications (later named Bachelor
             of Arts in Mass Communications) at Loyola. I transferred to that
@@ -397,7 +380,7 @@ function Home() {
               That's me on the headset, upper right - from 1968 Loyola Yearbook
             </span>
           </div>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             I worked as an early morning DJ, a play-by-play radio announcer at
             the Loyola Basketball games, the PA announcer at a few Loyola
             Baseball team and football club games. As a reporter, I had the
@@ -422,14 +405,14 @@ function Home() {
               Loyola University Field House, New Orleans, LA
             </span>
           </div>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             After the Department of Communications and changing my major, I was
             able to take courses in TV writing, directing, announcing, and
             camera operation. At the start of my senior year, I was named Senior
             Operations Director for the radio station now named WLDC . These
             skills were to come in handy when I finally got to Berlin.
           </p>
-          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+          <p className="para-std">
             I also joined the ROTC was a member of the competitive rifle team,
             and the Drill Team. As far as I know, neither one of these
             activities.
