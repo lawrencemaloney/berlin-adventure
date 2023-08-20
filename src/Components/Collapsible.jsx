@@ -1,12 +1,12 @@
-import React, { useState, useRef } from "react";
-import "./Collapsible.css";
+import React, { useState, useRef } from "react"
+import "./Collapsible.css"
 
 function Collapsible(props) {
-  const [isOpen, setIsOpen] = useState(false);
-  const parentRef = useRef();
+  const [isOpen, setIsOpen] = useState(false)
+  const parentRef = useRef()
 
-  if (parentRef.current) console.log(parentRef.current);
-  // console.log(parentRef.current.scrollHeight);
+  if (parentRef.current) console.log(parentRef.current)
+  // console.log(parentRef.current.scrollHeight)
   return (
     <>
       <span className="collapsible  ">
@@ -24,11 +24,11 @@ function Collapsible(props) {
                   display: "inline-block",
 
                   // display: "inline-block",
-                  marginBottom: "10px",
+                  marginBottom: "10px"
                 }
               : {
                   // width: 0 + "px",
-                  display: "none",
+                  display: "none"
                 }
           }
         >
@@ -36,7 +36,7 @@ function Collapsible(props) {
         </div>
       </span>
     </>
-  );
+  )
 }
 
-export default Collapsible;
+export default Collapsible

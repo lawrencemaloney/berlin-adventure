@@ -12,7 +12,6 @@ function Home() {
       <div className="homewrap z-20 mx-auto  flex h-[100%] flex-col items-center  ">
         <div className="thedecision z-20 mx-auto   h-[100%]  ">
           <h1 className="h1-std">It Began With a Lottery</h1>
-
           <p className="para-std">
             On December 3, 1969, at the height of American involvement in the
             Vietnam War, I joined the U.S. Army. As with most decisions, my
@@ -22,7 +21,6 @@ function Home() {
             complex, and mostly out of my control.
           </p>
           <h2 className="h2-std">What's Your Number?</h2>
-
           <p className=" para-std ">
             The timing of my decision was determined primarily by the outcome of
             a lottery. On December 1, 1969, at Selective Service National
@@ -32,8 +30,7 @@ function Home() {
             inequities in the "oldest man first" method for conscripting
             civilians.
           </p>
-
-          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
+          <div className=" img-class	">
             <img
               src="images/Draft Lottery glass bowl Pirnie.jpg"
               width="940px"
@@ -41,9 +38,7 @@ function Home() {
             />
             <span className="text-sm leading-none">(Library of Congress)</span>
           </div>
-
           <h2 className="h2-std">The Process</h2>
-
           <p className="para-std">
             366 opaque plastic capsules, each containing a slip of paper with a
             number from 1 to 366 representing each day of the year (366 to
@@ -64,11 +59,10 @@ function Home() {
             the year had been paired with a sequence number.
           </p>
           <h2 className="h2-std">The Results</h2>
-
           <p className="para-std">
             My birth date, November 27, 1947, was on the 47th capsule chosen.
           </p>
-          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
+          <div className=" img-class	">
             <img
               className="border-2 border-black"
               src="images/lottery-card-1970-marked.jpg"
@@ -77,9 +71,7 @@ function Home() {
             />
             <span className="text-sm leading-none ">1970 Results.</span>
           </div>
-
           <h2 className="h2-std">Seeking Advice</h2>
-
           <p className="para-std ">
             I decided to get an expert opinion on how long I had until I was
             likely to be drafted. So, on December 3rd, I visited the local Army
@@ -87,7 +79,7 @@ function Home() {
             February." the Recruitment Officer said after I told him that my
             lottery number was 47.
           </p>
-          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
+          <div className="img-class ">
             <img
               className="border-2 border-black"
               src="images/Enlisting.webp"
@@ -96,7 +88,6 @@ function Home() {
             />
             <span className="text-sm leading-none">U.S. Army Recruiter</span>
           </div>
-
           <p className="para-std">
             I asked him if there was any benefit in volunteering rather than
             waiting to be drafted. He said that my military records would show
@@ -115,10 +106,8 @@ function Home() {
             </span>
           </p>
           {/* <img className='max-w-[35vw] ' src={sectionDiv} alt='divider' /> */}
-
           <h1 className="h1-std ">How did I Get Here?</h1>
-
-          <div className=" my-2   w-[calc(100%-60px)] max-w-[740px]	">
+          <div className=" img-class  img-cap	">
             <img
               className=""
               src="images/JTAlicewithCCat500.webp"
@@ -171,7 +160,6 @@ function Home() {
               </p>
             </Collapsible>
           </div>
-
           <p className="para-std">
             Like Alice, I had no clear idea of where I wanted to "get to" in the
             years and months leading to my enlistment. The war in Vietnam, the
@@ -183,13 +171,247 @@ function Home() {
           <h2 className="h2-std">
             The 1960s - A Decade that Shaped My Decision{" "}
           </h2>
-
           <p className="para-std ">
             The dramatic cultural, social, and political events of the 1960s
             significantly impacted my decision to join the Army during a hot
             war. For almost the entirety of the decade, my personal life was
             focused on high school and college. (September 1962 through May
             1969).
+          </p>
+          <h3 className=" h3-box">1960 </h3>
+          <h4 className="h4-headline ">
+            May 1 - U.S. Spy Plane Shot Down over USSR
+          </h4>
+          <p className="para-std">
+            The ongoing Cold War between the Soviet Union and the western
+            allies, three major political assassinations, the nation-wide racial
+            violence, and the escalation of the Vietnam War all played a major
+            role in my decision.
+          </p>
+          <div className="img-class  img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/First-U-2.jpg"
+              alt="U2"
+              width="980px"
+            />
+            <span className="text-sm leading-none ">
+              U2 Spy Plane Photo credit: U.S. Air Force
+            </span>
+          </div>
+          <p className="para-std">
+            On May 1, 1960, four months before I started high school, a CIA U-2
+            Spy Plane, flown by Francis Gary Powers, was shot down by the Soviet
+            air defense forces while performing photographic aerial
+            reconnaissance deep inside Soviet territory. This incident was a
+            significant international embarrassment to the United States. It
+            came at a very sensitive time in the developing Cold War between the
+            United States and the Soviet Union.
+          </p>
+          <h3 className=" h3-box">1961 </h3>
+          <h4 className="h4-headline ">
+            October 27 – Soviet and American Tanks Faceoff in Berlin.
+          </h4>
+          <p className="para-std">
+            "On October 27, 1961, combat-ready American and Soviet tanks faced
+            off in Berlin at the U.S. Army\'s Checkpoint Charlie. Tensions
+            between the United States and the Soviet Union over access to the
+            outpost city of Berlin and its Soviet-controlled eastern sector had
+            increased to the point of direct military confrontation."
+          </p>
+          <div className="img-class  img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/US Soviet tank confrontation religion 1961.webp"
+              alt="U2"
+              width="980px"
+            />
+            <span className="text-sm leading-none ">
+              Soldiers from the U.S. Army Berlin Command face off against police
+              from the former East Germany during one of several standoffs at
+              Checkpoint Charlie in 1961. On several occasions that year, a U.S.
+              quick reaction force of tanks and infantry Soldiers ... (Photo
+              Credit: U.S. Army){" "}
+              <div className="ml-2 	text-center">
+                <Collapsible icon="[&#8224;]">
+                  <p className="ml-1  max-w-[45ch]  text-[18]	text-black	">
+                    {/* [&#8224;] */}
+                    Hendrix, Thomas L. Standoff in Berlin, October 1961.
+                    <br />
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="https://www.army.mil/article/46993/standoff_in_berlin_october_1961"
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      https://www.army.mil/article/46993/standoff_in_berlin_october_1961
+                    </a>
+                    {/* <br /> */}
+                  </p>
+                </Collapsible>
+              </div>
+            </span>
+          </div>
+
+          <h3 className=" h3-box">1962</h3>
+          <h4 className="h4-headline ">
+            September 1962 – First Year of High School
+          </h4>
+          <p className="para-std">
+            From September 1962 to June 1965, I attended high school in
+            Ridgewood, New Jersey. Unlike many typical high schools in northern
+            New Jersey, Ridgewood high school was a three-year school covering
+            grades 10 through 12. So, I attended grade nine at the George
+            Washington middle school, about a mile from our house.
+          </p>
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
+            <img
+              className="border-2 border-black "
+              src="images/GW.jpg"
+              alt="Riodgewood High"
+              width="980px"
+            />
+            <span className="text-sm leading-none">
+              George Washington Middle School, Ridgewood, NJ
+            </span>
+          </div>
+          <h4 className="h4-headline ">
+            October 16 to November 20, 1962 - Cuban Missile Crisis
+          </h4>
+          <p className="para-std">
+            On October 17, 1962, every network brought news that a U.S. U2 spy
+            plane photographed evidence that as many as 32 Soviet-built
+            medium-range ballistic missiles capable of delivering a nuclear
+            warhead to any location within a 1,600-mile radius were already in
+            Cuba with more on the way. In response, President Kennedy
+            established an Executive Committee of the National Security Council
+            comprised of top officials of the U.S. Departments of Defence,
+            State, the CIA, and other national security experts.
+            <Collapsible icon="[&#8224;]">
+              {/* <div className="-ml-[140px] text-black w-[400px] h-[135px]  py-[20px]  text-[18px] 	"> */}
+              <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black  ">
+                {/* [&#8224;] */}
+                <p className="para-fnote">
+                  “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
+                  <br />
+                  <a
+                    target="blank"
+                    rel="noopener noreferrer"
+                    href="https://www.jfklibrary.org/learn/about-jfk/jfk-in-historycuban-missile-crisis"
+                    className="
+                  text-blue-600
+                  visited:text-purple-600"
+                  >
+                    {" "}
+                    https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis
+                  </a>
+                </p>
+                <p className="para-fnote">
+                  Britannica, T. Editors of Encyclopaedia. "Cuban missile
+                  crisis." Encyclopedia Britannica, December 20, 2021.
+                  <br />
+                  <a
+                    target="blank"
+                    rel="noopener noreferrer"
+                    href="https://www.britannica.com/event/Cuban-missile-crisis"
+                    className="
+                  text-blue-600
+                  visited:text-purple-600"
+                  >
+                    https://www.britannica.com/event/Cuban-missile-crisis
+                  </a>
+                </p>
+                <p className="para-fnote">
+                  Schwarz, Benjamin, Janury/February 2013 Issue, The Real Cuban
+                  Missile Crisis.The Atlantic.
+                  <br />
+                  <a
+                    target="blank"
+                    rel="noopener noreferrer"
+                    href="https://www.theatlantic.com/magazine/archive/2013/01/the-real-cuban-mssile-crisis/309190/"
+                    className="
+                  text-blue-600
+                  visited:text-purple-600"
+                  >
+                    https://www.theatlantic.com/magazine/archive/2013/01/the-real-cuban-mssile-crisis/309190/
+                  </a>
+                </p>
+                <p className="para-fnote">
+                  Arnold, Mark, May 5, 2013 Issue, JFK and the Road to Dallas:
+                  The Cuban Missile Crisis-Part II.
+                  <br />
+                  <a
+                    target="blank"
+                    rel="noopener noreferrer"
+                    href="http://fromanativeson.com/2013/05/05/jfk-and-the-road-to-dallas-the-cuban-missile-crisis-pat-ii-by-mark-arnold/"
+                    className="
+                  text-blue-600
+                  visited:text-purple-600"
+                  >
+                    http://fromanativeson.com/?s=The+Cuban+Missile+Crisis-Part+II
+                    <br />
+                    <br />
+                  </a>
+                </p>
+              </div>
+            </Collapsible>
+          </p>
+          <div className="img-class  img-cap  ">
+            <img
+              className="border-2 border-black "
+              src="images/Cuban Missle Crisis Stevenson at UN.webp"
+              alt="Cuban Missile Crisis"
+              width="980px"
+            />
+            <p className=" px-8">
+              (Confrontation at the United Nations, October 25, 1962: deputy
+              NPIC director David Parker points out the photographic evidence
+              while U.S. ambassador Adlai Stevenson (at right) describes the
+              photos. USSR ambassador Valerian Zorin is presiding at far left.
+              (National Security Archives))
+            </p>
+          </div>
+          <p className="para-std">
+            The President received advice on the most appropriate response
+            ranging from a direct attack on the missile sites to a blockade of
+            the island nation. Arguing for the direct attack approach, Air Force
+            Chief General Curtis LeMay stated, “They'll do nothing," in response
+            to the President's question about a Soviet response to a direct
+            attack. Kennedy responded: "Are you trying to tell me they'll let us
+            bomb their missiles and kill a lot of Russians and then do nothing?
+            If they don't do anything in Cuba they'll certainly do something in
+            Berlin."
+          </p>
+          <p className="para-std">
+            Secretary of Defense Robert McNamara proposed that a blockade of
+            Cuba would put pressure on the Soviets but give them time to
+            reconsider and deescalate. It would also provide the U.S. with time
+            to prepare for more aggressive action if warranted. McNamara noted
+            that surgical airstrikes were not practical unless followed by an
+            invasion.
+          </p>
+          <div className="img-class  img-cap">
+            <img
+              className="border-2 border-black "
+              src="images/P-2H_Neptune_over_Soviet_ship_Oct_1962 (1).webp"
+              alt="Van Dyks Ice Cream Ridgewwod NJ"
+              width="980px"
+            />
+            <span className="text-sm leading-none">
+              (A US Navy P-2H Neptune anti-submarine warfare (ASW) aircraft
+              monitors a Soviet cargo ship. (Public Domain))
+            </span>
+          </div>
+          <p className="para-std">
+            President Kennedy decided on a plan based upon McNamara's advice and
+            ordered a total naval "quarantine" of Cuba, declaring that the U.S.
+            would prevent any ship carrying offensive weapons from reaching
+            Cuba. There was a real possibility that the U.S. Navy would forcibly
+            stop and board Soviet ships and that war would ensue. Eventually,
+            the two nations negotiated the total removal of missiles and the
+            destruction of the launch facilities.
           </p>
           <p className="para-std ">
             At the forefront of my mind during this period were sports,
@@ -213,25 +435,6 @@ function Home() {
             </div>
           </p>
           <h3 className=" h3-box">1962 to 1965 - My Highschool Years </h3>
-          <p className="para-std">
-            From September 1962 to June 1965, I attended high school in
-            Ridgewood, New Jersey. Unlike many typical high schools in northern
-            New Jersey, Ridgewood high school was a three-year school covering
-            grades 10 through 12. So, I attended grade nine at the George
-            Washington middle school, about a mile from our house.
-          </p>
-
-          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
-            <img
-              className="border-2 border-black "
-              src="images/GW.jpg"
-              alt="Riodgewood High"
-              width="980px"
-            />
-            <span className="text-sm leading-none">
-              George Washington Middle School, Ridgewood, NJ
-            </span>
-          </div>
           <p className="para-std">
             I had an unremarkable career there. I could get by with minimum
             effort, and, to my later shame, a minimum effort is what I gave. I
@@ -313,7 +516,6 @@ function Home() {
             </span>
             .
           </p>
-
           <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
             <img
               className="border-2 border-black "
@@ -326,7 +528,6 @@ function Home() {
               archives.
             </span>
           </div>
-
           <p className="para-std">
             With a student deferment in hand, I was not concerned about being
             drafted into military service as I arrived at Loyola for my first
@@ -342,7 +543,6 @@ function Home() {
             considered too burdensome by the Association to Advance Collegiate
             Schools of Business (AACSB). I had to find a new degree program.
           </p>
-
           <h3 className="h3-std">A Change in Direction</h3>
           <p className="para-std">
             Happily, some friends had asked me to join the staff of the
@@ -417,7 +617,6 @@ function Home() {
             and the Drill Team. As far as I know, neither one of these
             activities.
           </p>
-
           <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
             <img
               className="border-2 border-black "

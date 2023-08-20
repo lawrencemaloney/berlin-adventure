@@ -2,12 +2,18 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&");
 
+/* @import "tailwindcss/base"; */
+/* @import "tailwindcss/components"; */
+/* @import "tailwindcss/utilities"; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .para-std {
   @apply mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl;
+}
+.para-fnote {
+  @apply my-[10px];
 }
 
 .h1-std {
@@ -25,6 +31,14 @@
   @apply mx-[20px] my-3  font-bold text-center border border-solid border-zinc-700 text-2xl italic;
 }
 
+.h4-headline {
+  @apply mt-4 mb-3 text-2xl font-bold italic;
+}
+
+.img-class {
+  @apply my-5 mx-auto  w-[calc(100%-40px)] max-w-[600px] text-[14px] leading-5;
+}
+
 /* Global Variables */
 
 /* Global TW  */
@@ -35,7 +49,7 @@
   }
 
   body {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     margin: 0;
     padding: 0;
     /* font-family:Roboto; */
