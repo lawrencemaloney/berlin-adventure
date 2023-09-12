@@ -10,10 +10,13 @@
 @tailwind utilities;
 
 .para-std {
-  @apply mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl;
+  @apply mx-auto my-3 p-1 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl;
 }
 .para-fnote {
-  @apply my-[10px];
+  @apply mx-auto my-2 p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-semibold bg-white;
+}
+.btn-fnote {
+  @apply text-black  h-4 font-bold transition text-ellipsis;
 }
 
 .h1-std {

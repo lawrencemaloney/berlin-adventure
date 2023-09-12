@@ -1,14 +1,16 @@
-// import React, { useState, useRef } from "react";
+import React, { useState, useRef } from "react"
 import Header from "../Components/Header"
-import Collapsible from "../Components/Collapsible"
 import Sidebar from "../Components/Sidebar"
+import Popout from "../Components/Popout"
 
 function Home() {
+  const [showPopout, setShowPopout] = useState(false)
+  const handleOnClose = () => setShowPopout(false)
+
   return (
     <>
       <Header />
       <Sidebar />
-
       <div className="homewrap z-20 mx-auto  flex h-[100%] flex-col items-center  ">
         <div className="thedecision z-20 mx-auto   h-[100%]  ">
           <h1 className="h1-std">It Began With a Lottery</h1>
@@ -105,8 +107,17 @@ function Home() {
               I signed up and scheduled my induction for February 2, 1970.
             </span>
           </p>
-          {/* <img className='max-w-[35vw] ' src={sectionDiv} alt='divider' /> */}
-          <h1 className="h1-std ">How did I Get Here?</h1>
+          <img
+            className="max-w-[35vw] -my-6 mx-auto"
+            src="\media\SectionSeperatorShort.svg"
+            alt="divider"
+          />
+          <h1 className="h1-std ">How Did I Get Here?</h1>
+          <img
+            className="max-w-[35vw] mx-auto -my-5 rotate-180"
+            src="\media\SectionSeperatorShort.svg"
+            alt="divider"
+          />
           <div className=" img-class  img-cap	">
             <img
               className=""
@@ -114,37 +125,50 @@ function Home() {
               alt="Alice and the Cat"
               width="980px"
             />
+            <div
+              className="leading-tight  ml-[162px]  mb-[6px] -mt-[310px] w-[28ch] text-sm  
+          mobile:leading-normal  mobile:ml-[280px] mobile:-mt-[470px] mobile:w-[29ch] mobile:text-lg  tablet:leading-tight   tablet:ml-[290px] tablet:-mt-[490px] tablet:w-[26ch] tablet:text-xl  	"
+            >
+              <div className="py-1">
+                `Would you tell me, please, which way I ought to go from here?'
+              </div>
+              <div className="py-1 px-2">
+                `That depends a good deal on where you want to get to,' said the
+                Cat.{" "}
+              </div>
+              <div className="py-2">
+                `I don't much care where--' said Alice.
+              </div>
+              <div className="py-1 px-2">
+                {" "}
+                `Then it doesn't matter which way you go,' said the Cat.{" "}
+              </div>
+              <div className="py-2">
+                `--so long as I get SOMEWHERE,' Alice added as an explanation.
+              </div>
+              <div className="py-1 px-2">
+                `Oh, you're sure to do that,' said the Cat, `if you only walk
+                long enough{" "}
+                <button
+                  onClick={() => {
+                    setShowPopout(!showPopout)
+                  }}
+                  className="btn-fnote "
+                >
+                  &#8224;
+                </button>
+              </div>
+            </div>
           </div>
-          <div
-            className="leading-tight  ml-[162px]  mb-[6px] -mt-[310px] w-[28ch] text-sm  
-          mobile:leading-normal  mobile:ml-[280px] mobile:-mt-[470px] mobile:w-[29ch] mobile:text-lg  tablet:leading-tight   tablet:ml-[380px] tablet:-mt-[525px] tablet:w-[22ch] tablet:text-xl  	"
-          >
-            <div className="py-1">
-              `Would you tell me, please, which way I ought to go from here?'
-            </div>
-            <div className="py-1 px-2">
-              `That depends a good deal on where you want to get to,' said the
-              Cat.{" "}
-            </div>
-            <div className="py-2">`I don't much care where--' said Alice.</div>
-            <div className="py-1 px-2">
-              {" "}
-              `Then it doesn't matter which way you go,' said the Cat.{" "}
-            </div>
-            <div className="py-2">
-              `--so long as I get SOMEWHERE,' Alice added as an explanation.
-            </div>
-            <div className="py-1 px-2">
-              `Oh, you're sure to do that,' said the Cat, `if you only walk long
-              enough
-            </div>
-          </div>
-          <div className="ml-2 	text-center">
-            <Collapsible icon="[&#8224;]">
-              <p className="ml-1  max-w-[45ch]  text-[18]	text-black	">
-                {/* [&#8224;] */}
+          <Popout
+            onClose={handleOnClose}
+            visible={showPopout}
+            popData={
+              <p className="para-fnote">
+                <br />
                 Carroll, Lewis. Alice’s Adventures in Wonderland. With
                 illustrations by John Tenniel. Alice-in-wonderland.net Page 30.
+                <br />
                 <br />
                 <a
                   target="blank"
@@ -158,8 +182,11 @@ function Home() {
                 </a>
                 {/* <br /> */}
               </p>
-            </Collapsible>
-          </div>
+            }
+          />
+
+          {/* <div className="ml-2 	text-center"> */}
+          {/* </div> */}
           <p className="para-std">
             Like Alice, I had no clear idea of where I wanted to "get to" in the
             years and months leading to my enlistment. The war in Vietnam, the
@@ -209,6 +236,46 @@ function Home() {
             United States and the Soviet Union.
           </p>
           <h3 className=" h3-box">1961 </h3>
+
+          <h4 className="h4-headline ">
+            August 13 – Berlin Wall Construction Begins.
+          </h4>
+
+          <p className="para-std">
+            In an effort to stem the flow of immigrants, especially those who
+            were young well-educated, Soviet Union began building the Berlin
+            Wall.
+            <button
+              onClick={() => {
+                setShowPopout(!showPopout)
+              }}
+              className="btn-fnote"
+            >
+              &#8224;
+            </button>
+            <Popout
+              onClose={handleOnClose}
+              visible={showPopout}
+              popData={
+                <p className="para-fnote">
+                  Wikipedia
+                  <br />
+                  <a
+                    target="blank"
+                    rel="noopener noreferrer"
+                    href="https://en.wikipedia.org/wiki/Berlin_Wall#"
+                    className="
+          text-blue-600
+          visited:text-purple-600"
+                  >
+                    https://en.wikipedia.org/wiki/Berlin_Wall#
+                  </a>
+                  <br />
+                </p>
+              }
+            />
+          </p>
+
           <h4 className="h4-headline ">
             October 27 – Soviet and American Tanks Faceoff in Berlin.
           </h4>
@@ -217,41 +284,67 @@ function Home() {
             off in Berlin at the U.S. Army\'s Checkpoint Charlie. Tensions
             between the United States and the Soviet Union over access to the
             outpost city of Berlin and its Soviet-controlled eastern sector had
-            increased to the point of direct military confrontation."
+            increased to the point of direct military confrontation."{" "}
+            <div className="img-class  img-cap ">
+              <img
+                className="border-2 border-black "
+                src="images/US Soviet tank confrontation religion 1961.webp"
+                alt="U2"
+                width="980px"
+              />
+              <span className="text-sm leading-none ">
+                Soldiers from the U.S. Army Berlin Command face off against
+                police from the former East Germany during one of several
+                standoffs at Checkpoint Charlie in 1961. On several occasions
+                that year, a U.S. quick reaction force of tanks and infantry
+                Soldiers ... (Photo Credit: U.S. Army){" "}
+                <button
+                  onClick={() => {
+                    setShowPopout(!showPopout)
+                  }}
+                  className="btn-fnote"
+                >
+                  &#8224;
+                </button>
+              </span>
+            </div>
           </p>
+
+          <Popout
+            onClose={handleOnClose}
+            visible={showPopout}
+            popData={
+              <p className="para-fnote">
+                Hendrix, Thomas L. Standoff in Berlin, October 1961.
+                <br />
+                <a
+                  target="blank"
+                  rel="noopener noreferrer"
+                  href="https://www.army.mil/article/46993/standoff_in_berlin_october_1961"
+                  className="
+              text-blue-600
+              visited:text-purple-600"
+                >
+                  https://www.army.mil/article/46993/standoff_in_berlin_october_1961
+                </a>
+                <br />
+              </p>
+            }
+          />
+
+          <h4 className="h4-headline ">
+            November 20,1961 – East German workers building the Berlin Wall.
+          </h4>
           <div className="img-class  img-cap ">
             <img
               className="border-2 border-black "
-              src="images/US Soviet tank confrontation religion 1961.webp"
+              src="images/Berlin_Wall_1961-11-20.webp"
               alt="U2"
               width="980px"
             />
             <span className="text-sm leading-none ">
-              Soldiers from the U.S. Army Berlin Command face off against police
-              from the former East Germany during one of several standoffs at
-              Checkpoint Charlie in 1961. On several occasions that year, a U.S.
-              quick reaction force of tanks and infantry Soldiers ... (Photo
-              Credit: U.S. Army){" "}
-              <div className="ml-2 	text-center">
-                <Collapsible icon="[&#8224;]">
-                  <p className="ml-1  max-w-[45ch]  text-[18]	text-black	">
-                    {/* [&#8224;] */}
-                    Hendrix, Thomas L. Standoff in Berlin, October 1961.
-                    <br />
-                    <a
-                      target="blank"
-                      rel="noopener noreferrer"
-                      href="https://www.army.mil/article/46993/standoff_in_berlin_october_1961"
-                      className="
-                  text-blue-600
-                  visited:text-purple-600"
-                    >
-                      https://www.army.mil/article/46993/standoff_in_berlin_october_1961
-                    </a>
-                    {/* <br /> */}
-                  </p>
-                </Collapsible>
-              </div>
+              East German construction workers building the Berlin Wall, 20
+              November 1961
             </span>
           </div>
 
@@ -289,74 +382,85 @@ function Home() {
             established an Executive Committee of the National Security Council
             comprised of top officials of the U.S. Departments of Defence,
             State, the CIA, and other national security experts.
-            <Collapsible icon="[&#8224;]">
-              {/* <div className="-ml-[140px] text-black w-[400px] h-[135px]  py-[20px]  text-[18px] 	"> */}
-              <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black  ">
-                {/* [&#8224;] */}
-                <p className="para-fnote">
-                  “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
-                  <br />
-                  <a
-                    target="blank"
-                    rel="noopener noreferrer"
-                    href="https://www.jfklibrary.org/learn/about-jfk/jfk-in-historycuban-missile-crisis"
-                    className="
-                  text-blue-600
-                  visited:text-purple-600"
-                  >
-                    {" "}
-                    https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis
-                  </a>
-                </p>
-                <p className="para-fnote">
-                  Britannica, T. Editors of Encyclopaedia. "Cuban missile
-                  crisis." Encyclopedia Britannica, December 20, 2021.
-                  <br />
-                  <a
-                    target="blank"
-                    rel="noopener noreferrer"
-                    href="https://www.britannica.com/event/Cuban-missile-crisis"
-                    className="
-                  text-blue-600
-                  visited:text-purple-600"
-                  >
-                    https://www.britannica.com/event/Cuban-missile-crisis
-                  </a>
-                </p>
-                <p className="para-fnote">
-                  Schwarz, Benjamin, Janury/February 2013 Issue, The Real Cuban
-                  Missile Crisis.The Atlantic.
-                  <br />
-                  <a
-                    target="blank"
-                    rel="noopener noreferrer"
-                    href="https://www.theatlantic.com/magazine/archive/2013/01/the-real-cuban-mssile-crisis/309190/"
-                    className="
-                  text-blue-600
-                  visited:text-purple-600"
-                  >
-                    https://www.theatlantic.com/magazine/archive/2013/01/the-real-cuban-mssile-crisis/309190/
-                  </a>
-                </p>
-                <p className="para-fnote">
-                  Arnold, Mark, May 5, 2013 Issue, JFK and the Road to Dallas:
-                  The Cuban Missile Crisis-Part II.
-                  <br />
-                  <a
-                    target="blank"
-                    rel="noopener noreferrer"
-                    href="http://fromanativeson.com/2013/05/05/jfk-and-the-road-to-dallas-the-cuban-missile-crisis-pat-ii-by-mark-arnold/"
-                    className="
-                  text-blue-600
-                  visited:text-purple-600"
-                  >
-                    http://fromanativeson.com/?s=The+Cuban+Missile+Crisis-Part+II
+            <button
+              onClick={() => {
+                setShowPopout(!showPopout)
+              }}
+              className="btn-fnote"
+            >
+              &#8224;
+            </button>
+            <Popout
+              onClose={handleOnClose}
+              visible={showPopout}
+              popData={
+                <div className=" para-fnote ">
+                  {/* [&#8224;] */}
+                  <p className="para-fnote">
+                    “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
                     <br />
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="https://www.jfklibrary.org/learn/about-jfk/jfk-in-historycuban-missile-crisis"
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      {" "}
+                      https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis
+                    </a>
+                  </p>
+                  <p className="para-fnote">
+                    Britannica, T. Editors of Encyclopaedia. "Cuban missile
+                    crisis." Encyclopedia Britannica, December 20, 2021.
                     <br />
-                  </a>
-                </p>
-              </div>
-            </Collapsible>
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="https://www.britannica.com/event/Cuban-missile-crisis"
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      https://www.britannica.com/event/Cuban-missile-crisis
+                    </a>
+                  </p>
+                  <p className="para-fnote">
+                    Schwarz, Benjamin, Janury/February 2013 Issue, The Real
+                    Cuban Missile Crisis.The Atlantic.
+                    <br />
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="https://www.theatlantic.com/magazine/archive/2013/01/the-real-cuban-mssile-crisis/309190/"
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      https://www.theatlantic.com/magazine/archive/2013/01/the-real-cuban-mssile-crisis/309190/
+                    </a>
+                  </p>
+                  <p className="para-fnote">
+                    Arnold, Mark, May 5, 2013 Issue, JFK and the Road to Dallas:
+                    The Cuban Missile Crisis-Part II.
+                    <br />
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="http://fromanativeson.com/2013/05/05/jfk-and-the-road-to-dallas-the-cuban-missile-crisis-pat-ii-by-mark-arnold/"
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      http://fromanativeson.com/?s=The+Cuban+Missile+Crisis-Part+II
+                      <br />
+                      <br />
+                    </a>
+                  </p>
+                </div>
+              }
+            />
           </p>
           <div className="img-class  img-cap  ">
             <img

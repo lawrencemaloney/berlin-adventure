@@ -1,8 +1,11 @@
 import Header from "../Components/Header"
 import Collapsible from "../Components/Collapsible"
 import Sidebar from "../Components/Sidebar"
+// import Popout from "../Components/Popout"
 
 function Backstory() {
+  // const [showPopout, setShowPopout] = useState(false)
+  // const handleOnClose = () => setShowPopout(false)
   return (
     <>
       <Header />
@@ -133,7 +136,7 @@ function Backstory() {
             destruction of the launch facilities.
           </p>
           <div>
-            <Collapsible icon="[&#8224;]">
+            <Collapsible icon="&#8224;">
               {/* <div className="-ml-[140px] text-black w-[400px] h-[135px]  py-[20px]  text-[18px] 	"> */}
               <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black  ">
                 {/* [&#8224;] */}
@@ -213,7 +216,7 @@ function Backstory() {
             racially-motivated bombings. There were 48 such bombings reported in
             Birmingham between 1948 in 1957. In one month in 1957, four black
             churches and at least seven private residences were bombed.
-            <Collapsible icon="[&#8224;]">
+            <Collapsible icon="&#8224;">
               <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black ">
                 {/* [&#8224;] */}
 
@@ -258,7 +261,7 @@ function Backstory() {
             members of Cahaba River Group, a splinter group of the Eastview
             Klavern #13 chapter of the Ku Klux Klan. It took until May 1, 2001,
             until three of the four suspected bombers were convicted.
-            <Collapsible icon="[&#8224;]">
+            <Collapsible icon="&#8224;">
               <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black">
                 {/* [&#8224;] */}
                 <p className="para-fnote">

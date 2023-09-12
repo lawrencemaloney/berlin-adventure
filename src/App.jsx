@@ -1,19 +1,19 @@
-import React from "react";
+import React from "react"
 // import Header from "./Components/Header";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-import Home from "./Pages/Home";
-import Backstory from "./Pages/Backstory";
-import Training from "./Pages/Training";
-import InBerlin from "./Pages/InBerlin";
-import PostWW2 from "./Pages/PostWW2";
-import BOarticles from "./Pages/BOarticles";
-import MyPhotos from "./Pages/MyPhotos";
-import Archives from "./Pages/Archives";
-import About from "./Pages/About";
-import BOarticle1770 from "./Pages/BOarticle1770";
-import BOarticle073071 from "./Pages/BOarticle073071";
-import ScrollToTop from "./Components/ScrollToTop";
+import Home from "./Pages/Home"
+import Backstory from "./Pages/Backstory"
+import Training from "./Pages/Training"
+import InBerlin from "./Pages/InBerlin"
+import PostWW2 from "./Pages/PostWW2"
+import BOarticles from "./Pages/BOarticles"
+import MyPhotos from "./Pages/MyPhotos"
+import Archives from "./Pages/Archives"
+import About from "./Pages/About"
+import BOarticle1770 from "./Pages/BOarticle1770"
+import BOarticle073071 from "./Pages/BOarticle073071"
+import ScrollToTop from "./Components/ScrollToTop"
 
 function App() {
   return (
@@ -45,7 +45,7 @@ function App() {
         </Routes>
       </Router>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
