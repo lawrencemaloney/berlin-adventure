@@ -10,7 +10,7 @@
 @tailwind utilities;
 
 .para-std {
-  @apply mx-auto my-3 p-1 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl;
+  @apply mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-xl;
 }
 .para-fnote {
   @apply mx-auto my-2 p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-semibold bg-white;
@@ -20,11 +20,11 @@
 }
 
 .h1-std {
-  @apply mx-[20px] font-bold  text-center text-2xl tablet:text-3xl;
+  @apply mx-[1.25em] font-bold  text-center text-2xl tablet:text-3xl;
 }
 
 .h2-std {
-  @apply my-3 text-center font-bold text-2xl  tablet:text-2xl;
+  @apply mx-5 text-center font-bold text-2xl  tablet:text-2xl;
 }
 .h3-std {
   @apply mx-[20px] my-3  font-bold text-center text-2xl italic;
@@ -35,7 +35,7 @@
 }
 
 .h4-headline {
-  @apply mt-4 mb-3 text-2xl font-bold italic;
+  @apply mt-4 mb-4 text-xl m-10 text-center text-amber-800 font-bold italic;
 }
 
 .img-class {

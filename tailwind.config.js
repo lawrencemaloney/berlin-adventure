@@ -12,12 +12,12 @@ export default {
         "2/3": "66.6666"
       },
       screens: {
-        ipx: "425px",
-        mobile: "640px",
-        tablet: "768px",
-        laptop: "1070",
-        desktop: "1150px",
-        xldesktop: "1440px",
+        ipx: "26.5em",
+        mobile: "40em",
+        tablet: "48em",
+        laptop: "67em",
+        desktop: "72em",
+        xldesktop: "90em",
         portrait: {
           raw: "(orientation: portrait)"
         },

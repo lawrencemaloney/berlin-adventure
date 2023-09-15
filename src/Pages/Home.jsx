@@ -108,13 +108,13 @@ function Home() {
             </span>
           </p>
           <img
-            className="max-w-[35vw] -my-6 mx-auto"
+            className="max-w-[17em] -my-6 mx-auto mt-2"
             src="\media\SectionSeperatorShort.svg"
             alt="divider"
           />
           <h1 className="h1-std ">How Did I Get Here?</h1>
           <img
-            className="max-w-[35vw] mx-auto -my-5 rotate-180"
+            className="max-w-[17em] mx-auto -my-5 rotate-180"
             src="\media\SectionSeperatorShort.svg"
             alt="divider"
           />
@@ -126,7 +126,7 @@ function Home() {
               width="980px"
             />
             <div
-              className="leading-tight  ml-[162px]  mb-[6px] -mt-[310px] w-[28ch] text-sm  
+              className="leading-tight  ml-[162px]  mb-[1em] -mt-[310px] w-[28ch] text-sm  
           mobile:leading-normal  mobile:ml-[280px] mobile:-mt-[470px] mobile:w-[29ch] mobile:text-lg  tablet:leading-tight   tablet:ml-[290px] tablet:-mt-[490px] tablet:w-[26ch] tablet:text-xl  	"
             >
               <div className="py-1">
@@ -196,14 +196,59 @@ function Home() {
             <b>at least not by me</b>.
           </p>
           <h2 className="h2-std">
-            The 1960s - A Decade that Shaped My Decision{" "}
+            The 1960s - A Decade that Shaped My Course{" "}
           </h2>
           <p className="para-std ">
-            The dramatic cultural, social, and political events of the 1960s
-            significantly impacted my decision to join the Army during a hot
-            war. For almost the entirety of the decade, my personal life was
-            focused on high school and college. (September 1962 through May
-            1969).
+            The dramatic political, social, and cultural events of the 1960s
+            that significantly impacted my decision to join the Army were
+            spawned by events that went before.
+          </p>
+          <p className="para-std">
+            The “Cold War” confrontations between the Soviet Union and the
+            United States continued the distrust that began before the “allies”
+            defeated Hitler’s Germany in World War II.{" "}
+            <button
+              onClick={() => {
+                setShowPopout(!showPopout)
+              }}
+              className="btn-fnote "
+            >
+              &#8224;
+            </button>
+          </p>
+          <Popout
+            onClose={handleOnClose}
+            visible={showPopout}
+            popData={
+              <p className="para-fnote">
+                <br />
+                Caulfield, J. (2020). The grand alliance during World War II.
+                The National WWII Museum.
+                https://www.nationalww2museum.org/war/articles/big-three.
+                <br />
+                <br />
+                <a
+                  target="blank"
+                  rel="noopener noreferrer"
+                  href="https://www.nationalww2museum.org/war/articles/big-three#:~:text=In%20World%20War%20II%2C%20the,the%20war%20should%20be%20fought."
+                  className="
+                  text-blue-600
+                  visited:text-purple-600"
+                >
+                  https://www.nationalww2museum.org/war/articles/big-three..
+                </a>
+                {/* <br /> */}
+              </p>
+            }
+          />
+          <p className="para-std">
+            {" "}
+            The social unrest that broke out in violence during this decade
+            flowed inevitably from the bigotry and hatred that went before.
+          </p>
+          <p className="para-std">
+            Even the technology that allowed information to be shared
+            simultaneously by millions worldwide was developed over time.
           </p>
           <h3 className=" h3-box">1960 </h3>
           <h4 className="h4-headline ">
