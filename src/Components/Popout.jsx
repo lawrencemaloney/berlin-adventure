@@ -4,11 +4,7 @@ export default function Popout({ visible, onClose, popData }) {
   if (!visible) return null
   return (
     <>
-      <div
-        // id="container"
-        // onClick={handleOnClose}
-        className=" flex justify-center  items-center z-100"
-      >
+      <div className=" flex justify-center  items-center z-100">
         <div className=" rounded flex flex-col bg-black  bg-opacity-30 inset-0 para-fnote border-2 border-black">
           <p>{popData}</p>
           <button

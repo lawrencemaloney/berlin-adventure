@@ -1,16 +1,20 @@
 import React, { useState, useRef } from "react"
 import Header from "../Components/Header"
 import Sidebar from "../Components/Sidebar"
+import { FaCross, FaStarOfLife } from "react-icons/fa6"
 import Popout from "../Components/Popout"
+import Footnote from "../Components/Footnote"
 
 function Home() {
   const [showPopout, setShowPopout] = useState(false)
   const handleOnClose = () => setShowPopout(false)
+  // const [fnID, setFnID] = useState(0)
 
   return (
     <>
       <Header />
       <Sidebar />
+
       <div className="homewrap z-20 mx-auto  flex h-[100%] flex-col items-center  ">
         <div className="thedecision z-20 mx-auto   h-[100%]  ">
           <h1 className="h1-std">It Began With a Lottery</h1>
@@ -146,44 +150,32 @@ function Home() {
               <div className="py-2">
                 `--so long as I get SOMEWHERE,' Alice added as an explanation.
               </div>
-              <div className="py-1 px-2">
+              <div className="py-1 px-2 [counter-reset:section]">
                 `Oh, you're sure to do that,' said the Cat, `if you only walk
                 long enough{" "}
-                <button
-                  onClick={() => {
-                    setShowPopout(!showPopout)
-                  }}
-                  className="btn-fnote "
-                >
-                  &#8224;
-                </button>
+                <Footnote
+                  number={<FaCross />}
+                  text={
+                    <span className="para-fnote">
+                      <br /> Illustrations by John Tenniel.
+                      Alice-in-wonderland.net Page 30.
+                      <br />
+                      <a
+                        target="blank"
+                        rel="noopener noreferrer"
+                        href="https://www.alice-in-wonderland.net/wp-content/uploads/alice-in-wonderland.pdf"
+                        className="
+                      text-blue-600
+                      visited:text-purple-600"
+                      >
+                        https://www.alice-in-wonderland.net/wp-content/uploads/alice-in-wonderland.pdf
+                      </a>
+                    </span>
+                  }
+                />
               </div>
             </div>
           </div>
-          <Popout
-            onClose={handleOnClose}
-            visible={showPopout}
-            popData={
-              <p className="para-fnote">
-                <br />
-                Carroll, Lewis. Alice’s Adventures in Wonderland. With
-                illustrations by John Tenniel. Alice-in-wonderland.net Page 30.
-                <br />
-                <br />
-                <a
-                  target="blank"
-                  rel="noopener noreferrer"
-                  href="https://www.alice-in-wonderland.net/wp-content/uploads/alice-in-wonderland.pdf"
-                  className="
-                  text-blue-600
-                  visited:text-purple-600"
-                >
-                  https://www.alice-in-wonderland.net/wp-content/uploads/alice-in-wonderland.pdf
-                </a>
-                {/* <br /> */}
-              </p>
-            }
-          />
 
           {/* <div className="ml-2 	text-center"> */}
           {/* </div> */}
@@ -195,57 +187,66 @@ function Home() {
             enlistment decision were not planned,
             <b>at least not by me</b>.
           </p>
+
           <h2 className="h2-std">
             The 1960s - A Decade that Shaped My Course{" "}
           </h2>
-          <p className="para-std ">
+          <p className="para-std [counter-reset:section]">
             The dramatic political, social, and cultural events of the 1960s
-            that significantly impacted my decision to join the Army were
-            spawned by events that went before.
-          </p>
-          <p className="para-std">
-            The “Cold War” confrontations between the Soviet Union and the
-            United States continued the distrust that began before the “allies”
-            defeated Hitler’s Germany in World War II.{" "}
-            <button
-              onClick={() => {
-                setShowPopout(!showPopout)
-              }}
-              className="btn-fnote "
-            >
-              &#8224;
-            </button>
-          </p>
-          <Popout
-            onClose={handleOnClose}
-            visible={showPopout}
-            popData={
-              <p className="para-fnote">
-                <br />
-                Caulfield, J. (2020). The grand alliance during World War II.
-                The National WWII Museum.
-                https://www.nationalww2museum.org/war/articles/big-three.
-                <br />
-                <br />
-                <a
-                  target="blank"
-                  rel="noopener noreferrer"
-                  href="https://www.nationalww2museum.org/war/articles/big-three#:~:text=In%20World%20War%20II%2C%20the,the%20war%20should%20be%20fought."
-                  className="
+            that impacted my decision to join the Army were spawned by events of
+            earlier decades. The “Cold War” confrontations between the Soviet
+            Union and the United States that took place in the 60s were born of
+            distrust that began before the “allies” defeated Hitler’s Germany in
+            World War II.{" "}
+            <Footnote
+              number={<FaCross />}
+              text={
+                <p className="para-fnote">
+                  <br />
+                  Caulfield, J. (2020). The grand alliance during World War II.
+                  The National WWII Museum.
+                  https://www.nationalww2museum.org/war/articles/big-three.
+                  <br />
+                  <br />
+                  <a
+                    target="blank"
+                    rel="noopener noreferrer"
+                    href="https://www.nationalww2museum.org/war/articles/big-three#:~:text=In%20World%20War%20II%2C%20the,the%20war%20should%20be%20fought."
+                    className="
                   text-blue-600
                   visited:text-purple-600"
-                >
-                  https://www.nationalww2museum.org/war/articles/big-three..
-                </a>
-                {/* <br /> */}
-              </p>
-            }
-          />
-          <p className="para-std">
-            {" "}
+                  >
+                    https://www.nationalww2museum.org/war/articles/big-three.
+                  </a>
+                  {/* <br /> */}
+                </p>
+              }
+            />
             The social unrest that broke out in violence during this decade
-            flowed inevitably from the bigotry and hatred that went before.
+            flowed inevitably from the bigotry and hatred that went before.{" "}
+            <Footnote
+              number={<FaCross />}
+              text={
+                <span className="para-fnote">
+                  "Race Riots of the 1960s ." U*X*L Encyclopedia of U.S.
+                  History. . Encyclopedia.com. (August 22, 2023).
+                  https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/race-riots-1960s
+                  <a
+                    target="blank"
+                    rel="noopener noreferrer"
+                    href="https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/race-riots-1960s"
+                    className="
+                  text-blue-600
+                  visited:text-purple-600"
+                  >
+                    https://www.nationalww2museum.org/war/articles/big-three..
+                  </a>
+                  {/* <br /> */}
+                </span>
+              }
+            />
           </p>
+
           <p className="para-std">
             Even the technology that allowed information to be shared
             simultaneously by millions worldwide was developed over time.
@@ -290,19 +291,10 @@ function Home() {
             In an effort to stem the flow of immigrants, especially those who
             were young well-educated, Soviet Union began building the Berlin
             Wall.
-            <button
-              onClick={() => {
-                setShowPopout(!showPopout)
-              }}
-              className="btn-fnote"
-            >
-              &#8224;
-            </button>
-            <Popout
-              onClose={handleOnClose}
-              visible={showPopout}
-              popData={
-                <p className="para-fnote">
+            <Footnote
+              number={<FaCross />}
+              text={
+                <span className="para-fnote ">
                   Wikipedia
                   <br />
                   <a
@@ -310,13 +302,13 @@ function Home() {
                     rel="noopener noreferrer"
                     href="https://en.wikipedia.org/wiki/Berlin_Wall#"
                     className="
-          text-blue-600
-          visited:text-purple-600"
+                  text-blue-600
+                  visited:text-purple-600"
                   >
                     https://en.wikipedia.org/wiki/Berlin_Wall#
                   </a>
                   <br />
-                </p>
+                </span>
               }
             />
           </p>
@@ -343,39 +335,29 @@ function Home() {
                 standoffs at Checkpoint Charlie in 1961. On several occasions
                 that year, a U.S. quick reaction force of tanks and infantry
                 Soldiers ... (Photo Credit: U.S. Army){" "}
-                <button
-                  onClick={() => {
-                    setShowPopout(!showPopout)
-                  }}
-                  className="btn-fnote"
-                >
-                  &#8224;
-                </button>
+                <Footnote
+                  number={<FaCross />}
+                  text={
+                    <p className="para-fnote">
+                      Hendrix, Thomas L. Standoff in Berlin, October 1961.
+                      <br />
+                      <a
+                        target="blank"
+                        rel="noopener noreferrer"
+                        href="https://www.army.mil/article/46993/standoff_in_berlin_october_1961"
+                        className="
+                        text-blue-600
+                        visited:text-purple-600"
+                      >
+                        https://www.army.mil/article/46993/standoff_in_berlin_october_1961
+                      </a>
+                      <br />
+                    </p>
+                  }
+                />
               </span>
             </div>
           </p>
-
-          <Popout
-            onClose={handleOnClose}
-            visible={showPopout}
-            popData={
-              <p className="para-fnote">
-                Hendrix, Thomas L. Standoff in Berlin, October 1961.
-                <br />
-                <a
-                  target="blank"
-                  rel="noopener noreferrer"
-                  href="https://www.army.mil/article/46993/standoff_in_berlin_october_1961"
-                  className="
-              text-blue-600
-              visited:text-purple-600"
-                >
-                  https://www.army.mil/article/46993/standoff_in_berlin_october_1961
-                </a>
-                <br />
-              </p>
-            }
-          />
 
           <h4 className="h4-headline ">
             November 20,1961 – East German workers building the Berlin Wall.
@@ -427,20 +409,10 @@ function Home() {
             established an Executive Committee of the National Security Council
             comprised of top officials of the U.S. Departments of Defence,
             State, the CIA, and other national security experts.
-            <button
-              onClick={() => {
-                setShowPopout(!showPopout)
-              }}
-              className="btn-fnote"
-            >
-              &#8224;
-            </button>
-            <Popout
-              onClose={handleOnClose}
-              visible={showPopout}
-              popData={
+            <Footnote
+              number={<FaCross />}
+              text={
                 <div className=" para-fnote ">
-                  {/* [&#8224;] */}
                   <p className="para-fnote">
                     “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
                     <br />

@@ -13,7 +13,7 @@
   @apply mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-xl;
 }
 .para-fnote {
-  @apply mx-auto my-2 p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-semibold bg-white;
+  @apply mx-auto   p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-semibold  bg-yellow-100;
 }
 .btn-fnote {
   @apply text-black  h-4 font-bold transition text-ellipsis;

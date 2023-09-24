@@ -4,8 +4,6 @@ import Sidebar from "../Components/Sidebar"
 // import Popout from "../Components/Popout"
 
 function Backstory() {
-  // const [showPopout, setShowPopout] = useState(false)
-  // const handleOnClose = () => setShowPopout(false)
   return (
     <>
       <Header />
