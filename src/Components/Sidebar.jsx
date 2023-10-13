@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import React, { useState } from "react"
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import { FaBars, FaTimes } from "react-icons/fa"
 // import { isCompositeComponentWithType } from 'react-dom/test-utils';
 
 export default function Sidebar() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <>
@@ -29,33 +29,30 @@ export default function Sidebar() {
 
         <nav className="">
           <div className="mt-4 ml-4 flex flex-col  space-y-3 text-2xl leading-relaxed	  font-bold landscape:mt-6 landscape:grid landscape:grid-cols-2 mobile:landscape:flex ">
-            <CustomLink to="/Home">&#8883; The Story Begins</CustomLink>
-
-            <CustomLink to="/Backstory">&#8883; The Backstory </CustomLink>
+            <CustomLink to="/Decision">&#8883; The Decision to Join</CustomLink>
 
             <CustomLink to="/Training">&#8883; Training</CustomLink>
 
-            <CustomLink to="/PostWW2">&#8883; Hot War/Cold War</CustomLink>
-
-            <CustomLink to="/InBerlin">&#8883; In Berlin</CustomLink>
+            <CustomLink to="/InBerlin">&#8883; Life In Berlin</CustomLink>
 
             <CustomLink to="/BOarticles">&#8883; My Journalism</CustomLink>
 
             <CustomLink to="/MyPhotos">&#8883; My Photos</CustomLink>
 
+            <CustomLink to="/Backstory">&#8883; The Backstory </CustomLink>
+            <CustomLink to="/PostWW2">&#8883; Hot War/Cold War</CustomLink>
             <CustomLink to="/Archives">&#8883; Archives</CustomLink>
-
             <CustomLink to="/About">&#8883; About</CustomLink>
           </div>
         </nav>
       </div>
     </>
-  );
+  )
 }
 
 function CustomLink({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to);
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
 
   return (
     <span className={isActive ? " text-red-600" : "text-black	 "}>
@@ -63,5 +60,5 @@ function CustomLink({ to, children, ...props }) {
         {children}
       </Link>
     </span>
-  );
+  )
 }

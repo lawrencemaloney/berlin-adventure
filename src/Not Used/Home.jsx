@@ -176,7 +176,6 @@ function Home() {
               </div>
             </div>
           </div>
-
           {/* <div className="ml-2 	text-center"> */}
           {/* </div> */}
           <p className="para-std">
@@ -187,7 +186,6 @@ function Home() {
             enlistment decision were not planned,
             <b>at least not by me</b>.
           </p>
-
           <h2 className="h2-std">
             The 1960s - A Decade that Shaped My Course{" "}
           </h2>
@@ -246,7 +244,6 @@ function Home() {
               }
             />
           </p>
-
           <p className="para-std">
             Even the technology that allowed information to be shared
             simultaneously by millions worldwide was developed over time.
@@ -282,20 +279,37 @@ function Home() {
             United States and the Soviet Union.
           </p>
           <h3 className=" h3-box">1961 </h3>
-
           <h4 className="h4-headline ">
-            August 13 – Berlin Wall Construction Begins.
+            August 13 – Berlin Wall Isolates West Berlin.
           </h4>
-
           <p className="para-std">
             In an effort to stem the flow of immigrants, especially those who
             were young well-educated, Soviet Union began building the Berlin
             Wall.
+          </p>
+
+          <p className="para-std">
+            <span className="font-bold"> Rewrite this section </span>- "On
+            Saturday, 12 August 1961, the leaders of the GDR attended a garden
+            party at a government guesthouse in Döllnsee, in a wooded area to
+            the north of East Berlin. There, Ulbricht signed the order to close
+            the border and erect a wall. At midnight, the police and units of
+            the East German army began to close the border and, by Sunday
+            morning, 13 August, the border with West Berlin was closed. East
+            German troops and workers had begun to tear up streets running
+            alongside the border to make them impassable to most vehicles and to
+            install barbed wire entanglements and fences along the 156 km (97
+            mi) around the three western sectors, and the 43 km (27 mi) that
+            divided West and East Berlin.[59] The date of 13 August became
+            commonly referred to as Barbed Wire Sunday in Germany."
             <Footnote
               number={<FaCross />}
               text={
                 <span className="para-fnote ">
-                  Wikipedia
+                  Wikipedia contributors, "Berlin Wall," Wikipedia, The Free
+                  Encyclopedia,
+                  https://en.wikipedia.org/w/index.php?title=Berlin_Wall&oldid=1177818029
+                  (accessed September 30, 2023).
                   <br />
                   <a
                     target="blank"
@@ -312,6 +326,31 @@ function Home() {
               }
             />
           </p>
+          <div className="img-class  img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/Leap_into_Freedom.jpeg"
+              alt="Leap for freedom"
+              width="980px"
+            />
+            <span className="text-sm leading-none ">
+              By Peter Leibing - Time: 100 Photographs: The Most Influential
+              Images of All Time: Leap into FreedomOriginally distributed by the
+              Associated Press and published in numerous newspapers. See for
+              example the Globe-Gazette.Cropped from the source image to the
+              portion that was published in newspapers., PD-US,
+              https://en.wikipedia.org/w/index.php?curid=71522903
+            </span>
+          </div>
+
+          <div className="img-class  img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/Berlin_Wall_1961-11-20.webp"
+              alt="Leap for freedom"
+              width="980px"
+            />
+          </div>
 
           <h4 className="h4-headline ">
             October 27 – Soviet and American Tanks Faceoff in Berlin.
@@ -358,7 +397,6 @@ function Home() {
               </span>
             </div>
           </p>
-
           <h4 className="h4-headline ">
             November 20,1961 – East German workers building the Berlin Wall.
           </h4>
@@ -374,7 +412,6 @@ function Home() {
               November 1961
             </span>
           </div>
-
           <h3 className=" h3-box">1962</h3>
           <h4 className="h4-headline ">
             September 1962 – First Year of High School
@@ -458,23 +495,6 @@ function Home() {
                       https://www.theatlantic.com/magazine/archive/2013/01/the-real-cuban-mssile-crisis/309190/
                     </a>
                   </p>
-                  <p className="para-fnote">
-                    Arnold, Mark, May 5, 2013 Issue, JFK and the Road to Dallas:
-                    The Cuban Missile Crisis-Part II.
-                    <br />
-                    <a
-                      target="blank"
-                      rel="noopener noreferrer"
-                      href="http://fromanativeson.com/2013/05/05/jfk-and-the-road-to-dallas-the-cuban-missile-crisis-pat-ii-by-mark-arnold/"
-                      className="
-                  text-blue-600
-                  visited:text-purple-600"
-                    >
-                      http://fromanativeson.com/?s=The+Cuban+Missile+Crisis-Part+II
-                      <br />
-                      <br />
-                    </a>
-                  </p>
                 </div>
               }
             />
@@ -534,6 +554,279 @@ function Home() {
             the two nations negotiated the total removal of missiles and the
             destruction of the launch facilities.
           </p>
+          <h3 className=" h3-box">1963</h3>
+          <h5 className="h4-headline ">
+            September 15, 1963 - Birmingham Bombings ignite a decade of
+            violence.
+          </h5>
+          <p className="para-std">
+            As I began my second year of high school, Birmingham, Alabama, was
+            rocked by a terrorist bomb that killed four little girls aged 11 to
+            14 as they prepared for Sunday services at the 16th Street Baptist
+            Church. This bobbing was just the latest in a series that took place
+            beginning in 1948. Forty-eight such bombings were reported in
+            Birmingham between 1948 in 1957. In one month in 1957, four black
+            churches and at least seven private residences were bombed.
+            <Footnote
+              number={<FaCross />}
+              text={
+                <div className=" para-fnote ">
+                  <p className="para-fnote">
+                    “16th Street Baptist Church Bombing (1963)”. Accessed
+                    September 26, 2023.
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="https://www.nps.gov/articles/16thstreetbaptist.htm"
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      https://www.nps.gov/articles/16thstreetbaptist.htm
+                      <br />
+                    </a>
+                  </p>
+
+                  <p className="para-fnote">
+                    CNN Editorial Research. September 14, 2023. “1963 Birmingham
+                    Church Bombing Fast Facts.”
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href=" https://www.cnn.com/2013/06/13/us/1963-birmingham-church-bombing-fast-facts/index.html"
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      https://www.cnn.com/2013/06/13/us/1963-birmingham-church-bombing-fast-facts/index.html
+                      <br />
+                    </a>
+                  </p>
+                  <p className="para-fnote">
+                    Morgan, DeMarco et al, September 15, 2023 "Birmingham church
+                    bombing survivor reflects on 60th anniversary of attack".
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="https://abcnews.go.com/US/birmingham-church-bombing-survivor-reflects-60th-anniversary-attack/story?id=103217582"
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      https://abcnews.go.com/US/birmingham-church-bombing-survivor-reflects-60th-anniversary-attack/story?id=103217582
+                      <br />
+                    </a>
+                  </p>
+                  <p className="para-fnote">
+                    Gado, Mark (2007). "Bombingham". CrimeLibrary.com/Court TV
+                    Online. Archived from the original on August 18, 2007.
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="https://web.archive.org/web/20070818222057/http://www.crimelibrary.com/terrorists_spies/terrorists/birmingham_church/3.html"
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      https://web.archive.org/web/20070818222057/http://www.crimelibrary.com/terrorists_spies/terrorists/birmingham_church/3.html
+                      <br />
+                    </a>
+                  </p>
+                </div>
+              }
+            />
+          </p>
+          <div className="img-class img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/16th street church birminghamLOC BW.jpg"
+              alt="Four Girls Murdered in Birmingham 1963"
+              width="980px"
+            />
+            <span className="text-sm  leading-none">
+              (16th Street Church, Birminham, AL (Librarry of Congress) )
+            </span>
+          </div>
+          <div className="img-class img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/16th Street Church bombed 1963 outside view.jpg"
+              alt="Four Girls Murdered in Birmingham 1963"
+              width="980px"
+            />
+            <span className="text-sm leading-none">
+              (The crater and other damage caused by the bombing of the
+              Sixteenth Street Baptist Church, which killed four
+              African-American girls. AP Photo. )
+            </span>
+          </div>
+          <div className="img-class img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/birmingham riots dogs.webp"
+              alt="Dogs attack protesters in Birmingham"
+              width="980px"
+            />
+            <span className="text-sm  leading-none">
+              (Dogs attack protesters in Birmingham, AL - By Bill Hudson, of the
+              Associated Press)
+            </span>
+          </div>
+          <h5 className="h4-headline ">
+            November 22, 1963 - President John F. Kennedy Assassinated in
+            Dallas, TX,
+          </h5>
+          <p className="para-std">
+            On November 22, 1963, President John F. Kennedy was assassinated in
+            Dallas, TX. I remember being in the Ridgewood, NJ Highschool
+            cafeteria when a news broadcast could suddenly be heard over the PA
+            system reporting that the President had been shot. There was a
+            stunned silence as we all tried to make sense of what we heard
+            <Footnote
+              number={<FaCross />}
+              text={
+                <p className="para-fnote">
+                  Robert Siegel, "Walter Cronkite On The Assassination Of John
+                  F. Kennedy," NPR News All Things Considered, Washington, DC,
+                  November 22, 2013 4:22 PM ET.
+                  <br />
+                  <br />
+                  <a
+                    target="blank"
+                    rel="noopener noreferrer"
+                    href="https://www.npr.org/transcripts/246628793"
+                    className="
+                  text-blue-600
+                  visited:text-purple-600"
+                  >
+                    https://www.npr.org/transcripts/246628793
+                    <br />
+                    <br />
+                  </a>
+                </p>
+              }
+            />
+          </p>
+          <div className="img-class img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/JFK_limousine BW.webp"
+              alt="JFK at Dealey Plaza"
+              width="980px"
+            />
+            <span className="text-sm leading-none">
+              (President Kennedy motorcade in Dallas, Texas, on Main Street,
+              minutes before the assassination. November 22, 1963 (Public
+              Domain))
+            </span>
+          </div>
+          <h5 className="h4-headline ">
+            1963 - 1968 Racial Violence, Expanding War, and Assaassinations
+          </h5>
+          <p className="para-std">
+            Over the next five years, riots fueled by racial injustice rocked
+            the U.S. Riots began in Birmingham, Alabama (1963), reignited in
+            Harlem in New York City (1964), spread to Watts in Los Angeles
+            (1965), then to Chicago (1966). During the "long hot summer" of
+            1967, riots erupted in Atlanta, Cincinnati, Detroit, Boston,
+            Buffalo, Milwaukee, Minneapolis, Newark, NJ, Plainfield, NJ,
+            Rochester, NY, Tampa Bay, FL, and Toledo, OH. It seemed that things
+            couldn't get much worse. But they did!
+          </p>
+          <div className="img-class img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images\Watts_car_flipped.webp"
+              alt="Watts Riots"
+              width="980px"
+            />
+            <span className="text-sm leading-none">
+              Burned out cars during Watts Riots of August 1965 (Public Domain)
+            </span>
+          </div>
+          <p className="para-std ">
+            Amid violence, Dr. Martin Luther King worked to turn the violent
+            protests non-violent in hopes of realizing his dream of a nation
+            dedicated to peace and justice for all people. Just five years after
+            his hopeful "I have a dream" speech, Dr. King was assassinated by a
+            white man.
+            <Footnote
+              number={<FaCross />}
+              text={
+                <p className="para-fnote">
+                  King, Martin L. “I Have a Dream.” Speech presented at the
+                  March on Washington for Jobs and Freedom, Washington, D.C.,
+                  August 1968.
+                  <br />
+                  <br />
+                  <a
+                    target="blank"
+                    rel="noopener noreferrer"
+                    href="https://static.pbslearningmedia.org/media/media_files/Full_text_I_Have_a_Dream_.pdf"
+                    className="
+                  text-blue-600
+                  visited:text-purple-600"
+                  >
+                    "https://static.pbslearningmedia.org/media/media_files/Full_text_I_Have_a_Dream_.pdf"
+                    <br />
+                    <br />
+                  </a>
+                </p>
+              }
+            />
+            <div className="img-class img-cap ">
+              <img
+                className="border-2 border-black "
+                src="images\Martin_Luther_King_Jr_delivering_I_have_a_dream_speech_March_on_Washington_August_28_1963.jpg"
+                alt="MLK Dream Speach"
+                width="980px"
+              />
+              <span className="text-sm leading-none">
+                Martin Luther King, Jr., delivering "I have a dream" speech,
+                March on Washington, August 28, 1963 Courtesy U.S. Library of
+                Congress (2013645765) (Public Domain)
+              </span>
+            </div>
+          </p>
+          <div className="img-class  img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/MLK Shooting.webp"
+              alt="MLK Shot"
+              width="980px"
+            />
+            <span className="text-sm leading-none ">
+              Martin Luther King Jr. was fatally shot at the Lorraine Motel in
+              Memphis, Tennessee, on April 4, 1968.
+            </span>
+          </div>
+
+          <h4 className="h4-headline ">Bobbby Kennedy goes here</h4>
+          <div className="img-class  img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/RFK Speech.webp"
+              alt="RFK Shot"
+              width="980px"
+            />
+            <span className="text-sm leading-none ">
+              Sen. Robert Kennedy speaks at an election rally in 1968..
+            </span>
+          </div>
+
+          <div className="img-class  img-cap ">
+            <img
+              className="border-2 border-black "
+              src="images/Rfk_assassination.jpg"
+              alt="RFK Shot"
+              width="980px"
+            />
+            <span className="text-sm leading-none ">
+              RFK immediately after he was shot at the Ambassador Hotel in Los
+              Angeles, California on June 5, 1968.
+            </span>
+          </div>
+
           <p className="para-std ">
             At the forefront of my mind during this period were sports,
             developing friendships, the relatively new technologies of
@@ -543,7 +836,7 @@ function Home() {
             your living room. Transistor radios, and later, portable cassette
             and 8-Track Tape players, made it possible to be constantly
             influenced by the music base culture of the world.
-            <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
+            <div className="img-class img-cap ">
               <img
                 className="border-2 border-black "
                 src="images/8-tracks (i pinimg).jpg"

@@ -1,8 +1,9 @@
 import React from "react"
 // import Header from "./Components/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import "./tailwind.css"
 
-import Home from "./Pages/Home"
+import Decision from "./Pages/Decision"
 import Backstory from "./Pages/Backstory"
 import Training from "./Pages/Training"
 import InBerlin from "./Pages/InBerlin"
@@ -22,8 +23,8 @@ function App() {
         <ScrollToTop />
 
         <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/Home" element={<Home />}></Route>
+          <Route exact path="/" element={<Decision />}></Route>
+          <Route exact path="/Decision" element={<Decision />}></Route>
           <Route exact path="/Backstory" element={<Backstory />}></Route>
           <Route exact path="/Training" element={<Training />}></Route>
           <Route exact path="/PostWW2" element={<PostWW2 />}></Route>
@@ -32,6 +33,7 @@ function App() {
           <Route exact path="/MyPhotos" element={<MyPhotos />}></Route>
           <Route exact path="/Archives" element={<Archives />}></Route>
           <Route exact path="/About" element={<About />}></Route>
+
           <Route
             exact
             path="/BOarticle1770"
