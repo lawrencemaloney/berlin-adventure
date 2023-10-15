@@ -16,6 +16,57 @@ function Decision() {
       <Sidebar />
 
       <div className="homewrap z-20 mx-auto  flex h-[100%] flex-col items-center  ">
+        <p className="para-std ">
+          On December 3, 1969, at the height of American involvement in the
+          Vietnam War, I joined the U.S. Army. As with most decisions, my
+          choices were remarkably few. I could enlist, live with the uncertainty
+          of the draft, or evade military service altogether. The events and
+          convictions that influenced my decision were varied, complex, and
+          mostly out of my control.
+        </p>
+
+        <h2 className="h2-std">
+          In 1970, 40% of US Army recruits were sent to Vietnam. <br />I was
+          sent to Berlin!
+        </h2>
+
+        <p className="para-std ">
+          From June 28, 1970, to December 29, 1971, I served as the Public
+          Information Office (PIO) clerk for the 2nd Battalion, 6th Infantry
+          (the "2/6") Regiment of the Berlin Brigade, U.S. Army Berlin (USAB) in
+          Berlin, Germany. My primary duty was to promote the 2/6 by getting
+          vignettes, feature articles, and photos of Battalion accomplishments
+          published in the Brigade's weekly newspaper, the Berlin Observer.
+        </p>
+        <p className="para-std ">
+          In February 2020, I discovered an online archive of over 900 complete
+          editions of the Observer preserving Brigade-related events (many of
+          significant historical importance) from the first issue on September
+          25, 1945 (just five and a half months after Germany surrendered)
+          through the final publication on July 15, 1994. (See the Berlin
+          Observer Archives page to access all PDFs).
+        </p>
+        <p className="para-std ">
+          My wife suggested that I preserve my work contained in that archive
+          along with some context so that my family, particularly my sons and
+          grandchildren, would know a little of what my life in the Army was
+          like. This website is the result of that effort. (For a description of
+          how and why I started this project. Go to the page).
+        </p>
+        <p className="para-std "></p>
+
+        <div className=" img-class	">
+          <img
+            className="border-2 border-black"
+            src="images/Berlin scenes 41  resized.webp"
+            alt="Ku-Damm Berlin"
+            width="880px"
+          />
+          <span className="text-sm leading-none">
+            Ku-damm Strasse & Kaiser Wilhelm Memorial, Berlin Germany c. 1970
+          </span>
+        </div>
+
         <div className="thedecision z-20 mx-auto   h-[100%]  ">
           <h2 className="h2-std">Hot War/Cold War - Vietnam/Germany</h2>
           <p className="para-std ">
