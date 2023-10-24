@@ -18,6 +18,49 @@ function Decision() {
       <div className="homewrap z-20 mx-auto  flex h-[100%] flex-col items-center  ">
         <p className="para-std ">
           On December 3, 1969, at the height of American involvement in the
+          Vietnam War, I enlisted in the U.S. Army. As with most decisions, my
+          choices were remarkably few. In the years leading up to my decision
+          (1963-1969), the undercurrent of the Vietnam War loomed like a dark
+          cloud growing ever closer over the horizon. As young men approached
+          graduation, whether high school or college, our anxiety over the
+          possibility of being drafted to serve in this increasingly unpopular
+          war grew. As I approached my graduation from college in the spring of
+          1969, many of us were asking ourselves (and each other): "Will I go if
+          drafted?"{" "}
+        </p>
+        <p className="para-std ">
+          Many chose to avoid the draft as long as possible by staying in school
+          hoping that the war would end before they ran out of educational
+          deferment opportunities. Others, between 30,000 and 40,000, chose to
+          “relocate” to Canada.
+          <Footnote
+            number={<FaCross />}
+            text={
+              <span className="para-fnote">
+                <br />
+                Vietnam War resisters in Canada. (2023, September 24). In
+                Wikipedia. (accessed October 23, 2023).
+                <br />
+                <br />
+                <a
+                  target="blank"
+                  rel="noopener noreferrer"
+                  href="https://en.wikipedia.org/wiki/Vietnam_War_resisters_in_Canada
+                    "
+                  className="
+                  text-blue-600
+                  visited:text-purple-600"
+                >
+                  https://en.wikipedia.org/wiki/Vietnam_War_resisters_in_Canada
+                </a>
+              </span>
+            }
+          />
+          Still others chose even less honorable means to avoid military
+          service.
+        </p>
+        <p className="para-std ">
+          On December 3, 1969, at the height of American involvement in the
           Vietnam War, I joined the U.S. Army. As with most decisions, my
           choices were remarkably few. I could enlist, live with the uncertainty
           of the draft, or evade military service altogether. The events and
@@ -243,6 +286,32 @@ function Decision() {
             complex, and mostly out of my control.
           </p>
           <h2 className="h2-std">What's Your Number?</h2>
+          <p className=" para-std ">
+            According to the U.S. Army statistics, in 1970, there were 1,322,548
+            Army recruits, of which 692,660 were volunteers and 629,888 were
+            draftees 1. Therefore, the percentage of Army recruits who were
+            draftees in 1970 was approximately 47.6%.
+            <Footnote
+              number={<FaCross />}
+              text={
+                <span className="para-fnote">
+                  <br /> Coleman, David. “U.S. Military Personnel 1954-2014: The
+                  Numbers.” History in Pieces, July 30, 2014.
+                  <br />
+                  <a
+                    target="blank"
+                    rel="noopener noreferrer"
+                    href="https://historyinpieces.com/research/us-military-personnel-1954-2014"
+                    className="
+                      text-blue-600
+                      visited:text-purple-600"
+                  >
+                    https://historyinpieces.com/research/us-military-personnel-1954-2014
+                  </a>
+                </span>
+              }
+            />
+          </p>
           <p className=" para-std ">
             The timing of my decision was determined primarily by the outcome of
             a lottery. On December 1, 1969, at Selective Service National

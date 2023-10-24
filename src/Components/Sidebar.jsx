@@ -31,6 +31,9 @@ export default function Sidebar() {
           <div className="mt-4 ml-4 flex flex-col  space-y-3 text-2xl leading-relaxed	  font-bold landscape:mt-6 landscape:grid landscape:grid-cols-2 mobile:landscape:flex ">
             <CustomLink to="/Decision">&#8883; The Decision to Join</CustomLink>
 
+            <CustomLink to="/Beginning">
+              &#8883; The Adventure Begins
+            </CustomLink>
             <CustomLink to="/Training">&#8883; Training</CustomLink>
 
             <CustomLink to="/InBerlin">&#8883; Life In Berlin</CustomLink>

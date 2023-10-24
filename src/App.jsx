@@ -3,6 +3,7 @@ import React from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import "./tailwind.css"
 
+import Beginning from "./Pages/Beginning"
 import Decision from "./Pages/Decision"
 import Backstory from "./Pages/Backstory"
 import Training from "./Pages/Training"
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Decision />}></Route>
           <Route exact path="/Decision" element={<Decision />}></Route>
+          <Route exact path="/Beginning" element={<Beginning />}></Route>
           <Route exact path="/Backstory" element={<Backstory />}></Route>
           <Route exact path="/Training" element={<Training />}></Route>
           <Route exact path="/PostWW2" element={<PostWW2 />}></Route>
