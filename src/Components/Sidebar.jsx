@@ -29,19 +29,17 @@ export default function Sidebar() {
 
         <nav className="">
           <div className="mt-4 ml-4 flex flex-col  space-y-3 text-2xl leading-relaxed	  font-bold landscape:mt-6 landscape:grid landscape:grid-cols-2 mobile:landscape:flex ">
-            <CustomLink to="/Decision">&#8883; The Decision to Join</CustomLink>
-
-            <CustomLink to="/Beginning">
-              &#8883; The Adventure Begins
+            <CustomLink to="/Decision">
+              &#8883; The Decision to Enlist
             </CustomLink>
-            <CustomLink to="/Training">&#8883; Training</CustomLink>
 
-            <CustomLink to="/InBerlin">&#8883; Life In Berlin</CustomLink>
+            <CustomLink to="/Training">&#8883; Training</CustomLink>
+            <CustomLink to="/Beginning">&#8883; In Berlin</CustomLink>
+
+            {/* <CustomLink to="/InBerlin">&#8883; Life In Berlin</CustomLink> */}
 
             <CustomLink to="/BOarticles">&#8883; My Journalism</CustomLink>
-
             <CustomLink to="/MyPhotos">&#8883; My Photos</CustomLink>
-
             <CustomLink to="/Backstory">&#8883; The Backstory </CustomLink>
             <CustomLink to="/PostWW2">&#8883; Hot War/Cold War</CustomLink>
             <CustomLink to="/Archives">&#8883; Archives</CustomLink>

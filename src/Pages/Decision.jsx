@@ -16,23 +16,23 @@ function Decision() {
       <Sidebar />
 
       <div className="homewrap z-20 mx-auto  flex h-[100%] flex-col items-center  ">
+        <h2 className="h2-std">The Vietnam War Overshadowed a Generation</h2>
+
         <p className="para-std ">
-          On December 3, 1969, at the height of American involvement in the
-          Vietnam War, I enlisted in the U.S. Army. As with most decisions, my
-          choices were remarkably few. In the years leading up to my decision
-          (1963-1969), the undercurrent of the Vietnam War loomed like a dark
-          cloud growing ever closer over the horizon. As young men approached
-          graduation, whether high school or college, our anxiety over the
-          possibility of being drafted to serve in this increasingly unpopular
-          war grew. As I approached my graduation from college in the spring of
-          1969, many of us were asking ourselves (and each other): "Will I go if
-          drafted?"{" "}
+          For draft-eligible young men in the mid-to-late 1960s, the prospect of
+          being called to serve in the increasingly unpopular Vietnam War loomed
+          like a dark cloud over the horizon. At the very least, it was an
+          obstacle to planning the rest of your life. At the worst, it could end
+          your life.{" "}
         </p>
+
         <p className="para-std ">
-          Many chose to avoid the draft as long as possible by staying in school
-          hoping that the war would end before they ran out of educational
-          deferment opportunities. Others, between 30,000 and 40,000, chose to
-          “relocate” to Canada.
+          Until the law changed in 1971, a young man could qualify for a
+          deferment for as long as he was a full-time student in any field of
+          study. Many chose to stay in school as long as possible, hoping that
+          the war would end before they ran out of educational deferment
+          opportunities. Between 30,000 and 40,000 others chose a more permanent
+          solution by “relocating” to Canada.
           <Footnote
             number={<FaCross />}
             text={
@@ -56,75 +56,9 @@ function Decision() {
               </span>
             }
           />
-          Still others chose even less honorable means to avoid military
-          service.
         </p>
-        <p className="para-std ">
-          On December 3, 1969, at the height of American involvement in the
-          Vietnam War, I joined the U.S. Army. As with most decisions, my
-          choices were remarkably few. I could enlist, live with the uncertainty
-          of the draft, or evade military service altogether. The events and
-          convictions that influenced my decision were varied, complex, and
-          mostly out of my control.
-        </p>
-
-        <h2 className="h2-std">
-          In 1970, 40% of US Army recruits were sent to Vietnam. <br />I was
-          sent to Berlin!
-        </h2>
-
-        <p className="para-std ">
-          From June 28, 1970, to December 29, 1971, I served as the Public
-          Information Office (PIO) clerk for the 2nd Battalion, 6th Infantry
-          (the "2/6") Regiment of the Berlin Brigade, U.S. Army Berlin (USAB) in
-          Berlin, Germany. My primary duty was to promote the 2/6 by getting
-          vignettes, feature articles, and photos of Battalion accomplishments
-          published in the Brigade's weekly newspaper, the Berlin Observer.
-        </p>
-        <p className="para-std ">
-          In February 2020, I discovered an online archive of over 900 complete
-          editions of the Observer preserving Brigade-related events (many of
-          significant historical importance) from the first issue on September
-          25, 1945 (just five and a half months after Germany surrendered)
-          through the final publication on July 15, 1994. (See the Berlin
-          Observer Archives page to access all PDFs).
-        </p>
-        <p className="para-std ">
-          My wife suggested that I preserve my work contained in that archive
-          along with some context so that my family, particularly my sons and
-          grandchildren, would know a little of what my life in the Army was
-          like. This website is the result of that effort. (For a description of
-          how and why I started this project. Go to the page).
-        </p>
-        <p className="para-std "></p>
-
-        <div className=" img-class	">
-          <img
-            className="border-2 border-black"
-            src="images/Berlin scenes 41  resized.webp"
-            alt="Ku-Damm Berlin"
-            width="880px"
-          />
-          <span className="text-sm leading-none">
-            Ku-damm Strasse & Kaiser Wilhelm Memorial, Berlin Germany c. 1970
-          </span>
-        </div>
 
         <div className="thedecision z-20 mx-auto   h-[100%]  ">
-          <h2 className="h2-std">Hot War/Cold War - Vietnam/Germany</h2>
-          <p className="para-std ">
-            During my high school and college years (1963-1969) the undercurrent
-            of the Vietnam War was ever-present and constantly growing. The
-            closer young men got to graduation, whether high school or college,
-            the more their anxiety grew about the possibility of being drafted
-            to serve in this increasingly unpopular war. As I approached my
-            graduation from college in the spring of 1969, many of us were
-            asking ourselves (and each other): "will I go if drafted?" Many
-            avoided the draft by staying in school as long as possible,
-            "relocating" to Canada, or through some even less honorable means.
-            For myself, I decided to go if called.
-          </p>
-
           <div className=" img-class	">
             <img
               className="border-2 border-black"
@@ -136,38 +70,30 @@ function Decision() {
               US Soldiers in Vietnam - Wikipedia (Public Domain)
             </span>
           </div>
-
           <p className="para-std ">
-            So, as graduation approached, I was very aware that, within a year,
-            I could be in the jungles of Vietnam. I had no idea that, instead,
-            through God's providence, I would be living a pretty easy life in
-            Berlin, Germany. The major events that were part of my journey from
-            college graduate to soldier in Berlin.
-          </p>
-          <p className="para-std ">
-            The Vietnam War, officially the war between North and South Vietnam,
-            began in 1955 and ended in 1975.
+            The Vietnam War began as a Civil War between North and South Vietnam
+            in 1955. With the communist countries of the Soviet Union and China
+            supporting the North and the U.S. and its allies supporting the
+            South, the war took on geopolitical importance in the Cold War.
             <Footnote
               number={<FaCross />}
               text={
-                <span className="para-fnote">
+                <p className="para-fnote">
                   <br />
-                  Wikipedia contributors, "Vietnam War," Wikipedia, The Free
-                  Encyclopedia, (accessed August 14, 2022).
-                  <br />
+                  "Vietnam War," Wikipedia, The Free Encyclopedia, (accessed
+                  2023, October 26).
                   <br />
                   <a
                     target="blank"
                     rel="noopener noreferrer"
-                    href="https://en.wikipedia.org/w/index.php?title=Vietnam_War&oldid=1102834758
-                    "
+                    href="https://en.wikipedia.org/wiki/Vietnam_War"
                     className="
                   text-blue-600
                   visited:text-purple-600"
                   >
-                    https://en.wikipedia.org/w/index.php?title=Vietnam_War_casualties&oldid=1062906270
+                    https://en.wikipedia.org/wiki/Vietnam_War
                   </a>
-                </span>
+                </p>
               }
             />
             US troop involvement in Vietnam escalated from approximately 23,000
@@ -217,14 +143,6 @@ function Decision() {
             </span>
           </div>
           <p className="para-std ">
-            Since North Vietnam was supported by the Soviet Union, China, and
-            other communist allies and South Vietnam was supported by the United
-            States, South Korea, the Philippines, Thailand, and other
-            anti-communist allies, the war was seen as an extension of the Cold
-            War.
-          </p>
-
-          <p className="para-std ">
             The Tet Offensive of 1968 showed the lack of progress with these
             doctrines. With the VC and PAVN mounting large-scale urban
             offensives throughout 1968, U.S domestic support for the war began
@@ -243,11 +161,13 @@ function Decision() {
             <img
               className="border-2 border-black "
               // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
-              src="images\19vietnam-web-NYT_ARVN_cropped.jpg"
+              src="images\US Soldiers_vietnam_war_flickr_by_manhhai.webp"
               alt="US Soldiers Vietnam"
               width="980px"
             />
-            <span className="text-sm leading-none">NY Times</span>
+            <span className="text-sm leading-none">
+              US Soldiers in Vietnam by manhhai at flickr
+            </span>
           </div>
           <p className="para-std ">
             The ARVN, buttressed by said U.S. support, stopped the largest and
@@ -267,6 +187,69 @@ function Decision() {
             Saigon by the PAVN on 30 April; this marked the end of the war, and
             North and South Vietnam were reunified the following year.
           </p>
+          <h1 className="h1-std">Perception of the War Changes at Home </h1>
+          <h2 className="h2-std">The First Television War</h2>
+
+          <p className="para-std">
+            From 1950 to 1966, the percentage of Americans who owned a
+            television skyrocketed from 9 percent to 93 percent as televisions
+            became essential for everyday life.
+          </p>
+          <h2 className="h2-std">Protests at Home</h2>
+          <div className=" img-class	">
+            <img
+              className="border-2 border-black "
+              src="images\Vietnam War Protesters at the Pentagon 1967 BW.webp"
+              alt="My Lai Massacre"
+              width="980px"
+            />
+            <span className="text-sm leading-none">
+              A female demonstrator offers a flower to military police on guard
+              at the Pentagon du himring an anti-Vietnam demonstration.
+              Arlington, Virginia, USA
+            </span>
+          </div>
+          <h2 className="h2-std">The Atrocities of War - My Lai</h2>
+          <div className=" img-class	">
+            <img
+              className="border-2 border-black "
+              src="images\My_Lai_massacre_woman_and_children BW.webp"
+              alt="My Lai Massacre"
+              width="980px"
+            />
+            <span className="text-sm leading-none">
+              Unidentified Vietnamese women and children before being killed by
+              US Soldiers in the My Lai Massacre. Phot by Ronald L. Haeberle -
+              &quot;Report of the Department of Army review of the preliminary
+              investigations into the My Lai incident. Volume III, Exhibits,
+              Book 6 - Photographs, page 50 14 March 1970&quot;. From the
+              Library of Congress, Military Legal Resources.[1], Public Domain,
+              https://commons.wikimedia.org/w/index.php?curid=2461603
+            </span>
+          </div>
+          <h2 className="h2-std">
+            War Protesters Killed By National Guard - Kent State Massacre
+          </h2>
+          <div className=" img-class	">
+            <img
+              className="border-2 border-black "
+              src="images\Kent-State-Massacre-–-4th-May-1970-en.wikipedia.org-jjj.webp"
+              alt="Kent State Massacre"
+              width="980px"
+            />
+            <span className="text-sm leading-none">
+              By Alexrk2 - Own work, CC BY 3.0,
+              https://commons.wikimedia.org/w/index.php?curid=7132068
+            </span>
+          </div>
+          <h1 className="h1-std">The Cold War Connection</h1>
+          <p className=" para-std ">
+            Since North Vietnam was supported by the Soviet Union, China, and
+            other communist allies and South Vietnam was supported by the United
+            States, South Korea, the Philippines, Thailand, and other
+            anti-communist allies, the war was seen as an extension of the Cold
+            War.
+          </p>
           <p className="para-std ">
             The conflicting world views and political ambitions of the U.S. and
             the Soviet Union, which contributed to the escalating involvement of
@@ -275,15 +258,13 @@ function Decision() {
             governed, at the root of the conflict in Vietnam, were earlier made
             manifest to the world in post-war Berlin.
           </p>
-
           <h1 className="h1-std"> My Decision to Join the Army</h1>
           <p className="para-std">
-            On December 3, 1969, at the height of American involvement in the
-            Vietnam War, I joined the U.S. Army. As with most decisions, my
-            choices were remarkably few. I could enlist, live with the
-            uncertainty of the draft, or evade military service altogether. The
-            events and convictions that influenced my decision were varied,
-            complex, and mostly out of my control.
+            So, as graduation approached, I was very aware that, within a year,
+            I could be in the jungles of Vietnam. I had no idea that, instead,
+            through God's providence, I would be living a pretty easy life in
+            Berlin, Germany. The major events that were part of my journey from
+            college graduate to soldier in Berlin.
           </p>
           <h2 className="h2-std">What's Your Number?</h2>
           <p className=" para-std ">
@@ -472,7 +453,6 @@ function Decision() {
             enlistment decision were not planned,
             <b>at least not by me</b>.
           </p>
-
           <h3 className="h3-std"> What was I getting into?</h3>
           <p className="para-std ">
             At the time I made my decision to join the Army in December 1969,
@@ -523,25 +503,46 @@ function Decision() {
             <Footnote
               number={<FaCross />}
               text={
-                <p className="para-fnote">
-                  <br />
-                  Caulfield, J. (2020). The grand alliance during World War II.
-                  The National WWII Museum.
-                  https://www.nationalww2museum.org/war/articles/big-three.
-                  <br />
-                  <br />
-                  <a
-                    target="blank"
-                    rel="noopener noreferrer"
-                    href="https://www.nationalww2museum.org/war/articles/big-three#:~:text=In%20World%20War%20II%2C%20the,the%20war%20should%20be%20fought."
-                    className="
+                <div className=" para-fnote ">
+                  <p className="para-fnote">
+                    <br />
+                    Caulfield, J. (2020). The grand alliance during World War
+                    II. The National WWII Museum.
+                    https://www.nationalww2museum.org/war/articles/big-three.
+                    <br />
+                    <br />
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="https://www.nationalww2museum.org/war/articles/big-three#:~:text=In%20World%20War%20II%2C%20the,the%20war%20should%20be%20fought."
+                      className="
                   text-blue-600
                   visited:text-purple-600"
-                  >
-                    https://www.nationalww2museum.org/war/articles/big-three.
-                  </a>
-                  {/* <br /> */}
-                </p>
+                    >
+                      https://www.nationalww2museum.org/war/articles/big-three.
+                    </a>
+                    {/* <br /> */}
+                  </p>
+                  <p className="para-fnote">
+                    <br />
+                    Onion, Amanda , Missy Sullivan, Matt Mullen , and Christian
+                    Zapata. "Cold War History." History. June 26, 2023.
+                    https://doi.org/https://www.history.com/topics/cold-war/cold-war-history#the-cold-war-abroad.
+                    <br />
+                    <br />
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="https://www.nationalww2museum.org/war/articles/big-three#:~:text=In%20World%20War%20II%2C%20the,the%20war%20should%20be%20fought."
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      https://www.nationalww2museum.org/war/articles/big-three.
+                    </a>
+                    {/* <br /> */}
+                  </p>
+                </div>
               }
             />
           </p>

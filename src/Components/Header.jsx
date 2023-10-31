@@ -6,7 +6,7 @@ export default function Header() {
           An Unexpected Adventure
         </h1>
         <h2 className=" text-center text-[22px] mobile:text-[28px] italic my-4 tablet:text-3xl">
-          Larry Maloney Him
+          Larry Maloney
         </h2>
 
         <div className="seperator my-4 w-full h-[1px] bg-black"></div>
