@@ -185,7 +185,7 @@ function MyPhotos() {
               </div>
             )}
             {group === "All" && (
-              <div className="   mx-[1px] max-w-[100%] gap-4 tablet:mb-[1rem]	tablet:columns-2	">
+              <div className="   mx-[1px] max-w-[100%] gap-4 tablet:mb-[1rem]	tablet:columns-xs	">
                 <p className="mb-[16px]">
                   A large part of my job as the PIO clerk for the “2/6” was to
                   get pictures of significant events in the Battalion published

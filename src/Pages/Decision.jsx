@@ -15,8 +15,8 @@ function Decision() {
       <Header />
       <Sidebar />
 
-      <div className="homewrap z-20 mx-auto  flex h-[100%] flex-col items-center  ">
-        <h2 className="h2-std">The Vietnam War Overshadowed a Generation</h2>
+      <div className="page-std  ">
+        <h1 className="h1-std">The Vietnam War Overshadowed a Generation</h1>
 
         <p className="para-std ">
           For draft-eligible young men in the mid-to-late 1960s, the prospect of

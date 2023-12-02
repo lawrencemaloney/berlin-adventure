@@ -13,8 +13,9 @@ import BOarticles from "./Pages/BOarticles"
 import MyPhotos from "./Pages/MyPhotos"
 import Archives from "./Pages/Archives"
 import About from "./Pages/About"
-import BOarticle1770 from "./Pages/BOarticle1770"
-import BOarticle073071 from "./Pages/BOarticle073071"
+import ArticleJuly1770 from "./Pages/ArticleJuly1770"
+import ArticleJuly3071 from "./Pages/ArticleJuly3071"
+import ArticleDec1170 from "./Pages/ArticleDec1170"
 import ScrollToTop from "./Components/ScrollToTop"
 
 function App() {
@@ -38,13 +39,19 @@ function App() {
 
           <Route
             exact
-            path="/BOarticle1770"
-            element={<BOarticle1770 />}
+            path="/ArticleJuly1770"
+            element={<ArticleJuly1770 />}
           ></Route>
           <Route
             exact
-            path="/BOarticle073071"
-            element={<BOarticle073071 />}
+            path="/ArticleDec1170"
+            element={<ArticleDec1170 />}
+          ></Route>
+
+          <Route
+            exact
+            path="/ArticleJuly3071"
+            element={<ArticleJuly3071 />}
           ></Route>
         </Routes>
       </Router>
