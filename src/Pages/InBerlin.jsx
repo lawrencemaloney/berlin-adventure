@@ -9,7 +9,7 @@ function InBerlin() {
     <>
       <Header />
       <Sidebar />
-      <div className="page-std ">
+      <div className="z-20 mx-auto max-w-2xl flex h-[100%] flex-col items-center ">
         <h3>New York to Frankfurt to Berlin</h3>
         <p className="hilite">(Tap or hover over pictures below to enlarge.)</p>
 
@@ -22,7 +22,7 @@ function InBerlin() {
         <p>U.S. Army - Frankfurt 1970</p>
 
         <img
-          src="..\media\duty train frankfurt berlin (cropped).jpg"
+          src="..\media\duty train frankfurt berlin (cropped).JPG"
           alt="Army train to Frankfurt"
           width="434px"
           height="280px"

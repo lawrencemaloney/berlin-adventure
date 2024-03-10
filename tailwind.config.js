@@ -7,17 +7,17 @@ export default {
         robo: ["Roboto+Slab"],
         nun: ["Nunito"]
       },
-      padding: {
-        "1/3": "33/333333%",
-        "2/3": "66.6666"
-      },
+      // padding: {
+      //   "1/3": "33/333333%",
+      //   "2/3": "66.6666"
+      // },
       screens: {
-        ipx: "26.5em",
-        mobile: "40em",
-        tablet: "48em",
-        laptop: "67em",
-        desktop: "72em",
-        xldesktop: "90em",
+        ipx: "425px",
+        mobile: "640px",
+        tablet: "768px",
+        laptop: "1024px",
+        desktop: "1280px",
+        xldesktop: "1440px",
         portrait: {
           raw: "(orientation: portrait)"
         },
@@ -27,5 +27,8 @@ export default {
       }
     }
   },
-  plugins: [require("@tailwindcss/typography")]
-}
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("tailwind-scrollbar-hide")
+  ]
+};

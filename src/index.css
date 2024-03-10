@@ -9,62 +9,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.page-std {
-  @apply z-20 mx-auto max-w-2xl flex h-[100%] flex-col items-center;
-}
-
-.article-page-std {
-  @apply z-20   h-[100%];
-}
-
-.para-std {
-  @apply mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem];
-}
-.para-fnote {
-  @apply mx-auto   p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-semibold  bg-yellow-100;
-}
-.btn-fnote {
-  @apply text-black  h-4 font-bold transition text-ellipsis;
-}
-
-.BO-article-container {
-  @apply grid grid-cols-4 gap-2;
-}
-
-.BO-article {
-  @apply max-w-[650px] mb-10 flex flex-col items-center   p-2 text-black;
-}
-
-.BO-article-img {
-  @apply rounded-lg	 border-2 border-black;
-}
-
-.h1-std {
-  @apply mx-5 font-bold mt-2 mb-4 text-center text-2xl tablet:text-[30px];
-}
-
-.h2-std {
-  @apply mx-5 text-center font-bold text-2xl mt-3  tablet:text-[24px];
-}
-.h3-std {
-  @apply mx-[20px] mt-3  font-bold text-center text-[1.35rem] italic;
-}
-
-.h3-box {
-  @apply mx-[20px] my-3  font-bold text-center border border-solid border-zinc-700 text-2xl italic;
-}
-
-.h4-headline {
-  @apply mt-4 mb-4 text-xl m-10 text-center text-amber-800 font-bold italic;
-}
-.h5-headline {
-  @apply mt-4 mb-4 text-lg m-10 text-center text-black font-bold italic;
-}
-
-.img-class {
-  @apply my-5 mx-auto rounded-lg border-2 border-black w-[calc(100%-40px)] max-w-[600px] text-[14px] leading-5;
-}
-
 /* Global Variables */
 
 /* Global TW  */

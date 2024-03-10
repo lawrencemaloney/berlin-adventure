@@ -9,7 +9,7 @@ const MyArticle = () => {
         <Footnote
           number="1"
           text={
-            <p className="para-fnote">
+            <p className="mx-auto  p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-">
               <br />
               Carroll, Lewis. Alice’s Adventures in Wonderland. With
               illustrations by John Tenniel. Alice-in-wonderland.net Page 30.

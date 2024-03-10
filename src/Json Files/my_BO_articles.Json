@@ -1,39 +1,156 @@
 [
-    {
-      "id": 1,
-      "issue_date": "July 17, 1970",
-      "feature_article": "\\media\\BO article  07 17 70 (feature).jpg",
-      "feature_article_picture": "",
-      "short_article": "\\media\\BO article  07 17 70 (2nd).jpg" ,
-      "short_article_picture": "",
-      "short_picture": "", 
-      "battalion_brief": "\\media\\BO article 07 17 70 (main altered).JPG",
-      "Issue_URL": "\\media\\BO page1 images\\All Page1 Images\\Berlin Obsever V26_N28_jul17 1970.jpg",
-      "sort_date": "1970-07-17"
-    },
-    {
-      "id": 2,
-      "issue_date": "July 17, 1970",
-      "feature_article": "\\media\\BO article  07 17 70 (feature).jpg",
-      "feature_article_picture": "",
-      "short_article": "\\media\\BO article  07 17 70 (2nd).jpg" ,
-      "short_article_picture": "",
-      "short_picture": "", 
-      "battalion_brief": "\\media\\BO article 07 17 70 (main altered).JPG",
-      "Issue_URL": "\\media\\BO page1 images\\All Page1 Images\\Berlin Obsever V26_N28_jul17 1970.jpg",
-      "sort_date": "1970-07-17"
-    },
-    {
-      "id": 3,
-      "issue_date": "July 17, 1970",
-      "feature_article": "\\media\\BO article  07 17 70 (feature).jpg",
-      "feature_article_picture": "",
-      "short_article": "\\media\\BO article  07 17 70 (2nd).jpg" ,
-      "short_article_picture": "",
-      "short_picture": "", 
-      "battalion_brief": "\\media\\BO article 07 17 70 (main altered).JPG",
-      "Issue_URL": "\\media\\BO page1 images\\All Page1 Images\\Berlin Obsever V26_N28_jul17 1970.jpg",
-      "sort_date": "1970-07-17"
-    }
+  {
+    "id": "1",
+    "pagename": "/ArticleJul1770",
+    "issuedate": "July 17, 1970",
+    "pageimage": "/media/BO Banner general.jpg",
+    "alttext": "Berlin Observer July 17 1970"
+  },
+  {
+    "id": "2",
+    "pagename": "/ArticleDec1170",
+    "issuedate": "December 11, 1970",
+    "alttext": "Berlin Observer December11 1970"
+  },
+  {
+    "id": "3",
+    "pagename": "/ArticleDec1870",
+    "issuedate": "December 18, 1970",
+    "alttext": "Berlin Observer December 18 1970"
+  },
+  {
+    "id": "4",
+    "pagename": "/ArticleFeb0571",
+    "issuedate": "February 5, 1971",
+    "alttext": "Berlin Observer February 5, 1971"
+  },
+  {
+    "id": "6",
+    "pagename": "/ArticleFeb1971",
+    "issuedate": "February 19, 1971",
+    "alttext": "Berlin Observer February 12, 1971"
+  },
+  {
+    "id": "7",
+    "pagename": "/ArticleMar0571",
+    "issuedate": "March 5, 1971",
+    "alttext": "Berlin Observer March 5, 1971"
+  },
+  {
+    "id": "8",
+    "pagename": "/ArticleMay0771",
+    "issuedate": "May 7, 1971",
+    "alttext": "Berlin Observer May 7, 1971"
+  },
+  {
+    "id": "9",
+    "pagename": "/ArticleMay1471",
+    "issuedate": "May 14, 1971",
+    "alttext": "Berlin Observer May 14, 1971"
+  },
 
+  {
+    "id": "10",
+    "pagename": "/ArticleMay2171",
+    "issuedate": "May 21, 1971",
+    "alttext": "Berlin Observer May 21, 1971"
+  },
+
+  {
+    "id": "11",
+    "pagename": "/ArticleMay2871",
+    "issuedate": "May 28, 1971",
+    "alttext": "Berlin Observer May 28, 1971"
+  },
+
+  {
+    "id": "12",
+    "pagename": "/ArticleJun2571",
+    "issuedate": "June 25, 1971",
+    "alttext": "Berlin Observer June 25, 1971"
+  },
+  {
+    "id": "13",
+    "pagename": "/ArticleJul0271",
+    "issuedate": "Jul 2, 1971",
+    "alttext": "Berlin Observer July 2, 1971"
+  },
+  {
+    "id": "14",
+    "pagename": "/ArticleJul0971",
+    "issuedate": "July 9, 1971",
+    "alttext": "Berlin Observer July 9, 1971"
+  },
+  {
+    "id": "15",
+    "pagename": "/ArticleJul1671",
+    "issuedate": "July 16, 1971",
+    "alttext": "Berlin Observer July 16, 1971"
+  },
+  {
+    "id": "16",
+    "pagename": "/ArticleJuly3071",
+    "issuedate": "July 30, 1971",
+    "alttext": "Berlin Observer July 30 1971"
+  },
+  {
+    "id": "17",
+    "pagename": "/ArticleAug2071",
+    "issuedate": "August 20, 1971",
+    "alttext": "Berlin Observer August 20 1971"
+  },
+  {
+    "id": "18",
+    "pagename": "/ArticleAug2771",
+    "issuedate": "August 27, 1971",
+    "alttext": "Berlin Observer August 27, 1971"
+  },
+  {
+    "id": "19",
+    "pagename": "/ArticleSep2471",
+    "issuedate": "September 24, 1971",
+    "alttext": "Berlin Observer September 24, 1971"
+  },
+  {
+    "id": "20",
+    "pagename": "/ArticleOct1571",
+    "issuedate": "October 15, 1971",
+    "alttext": "Berlin Observer October 15, 1971"
+  },
+  {
+    "id": "21",
+    "pagename": "/ArticleNov0571",
+    "issuedate": "November 5, 1971",
+    "alttext": "Berlin Observer November 5, 1971"
+  },
+  {
+    "id": "22",
+    "pagename": "/ArticleNov2671",
+    "issuedate": "November 26, 1971",
+    "alttext": "Berlin Observer November 26 1971"
+  },
+  {
+    "id": "23",
+    "pagename": "/ArticleDec0371",
+    "issuedate": "December 3, 1971",
+    "alttext": "Berlin Observer December 3, 1971"
+  },
+  {
+    "id": "24",
+    "pagename": "/ArticleDec1071",
+    "issuedate": "December 10, 1971",
+    "alttext": "Berlin Observer December 10 1971"
+  },
+  {
+    "id": "25",
+    "pagename": "/ArticleDec1771",
+    "issuedate": "December 17, 1971",
+    "alttext": "Berlin Observer December 17 1971"
+  },
+  {
+    "id": "26",
+    "pagename": "/ArticleDec2371",
+    "issuedate": "December 23, 1971",
+    "alttext": "Berlin Observer December 23, 1971"
+  }
 ]

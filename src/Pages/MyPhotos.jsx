@@ -1,17 +1,21 @@
-import React, { useEffect, useState } from "react"
-import "../Components/MyPhotos.css"
-import { FaAngleDoubleLeft, FaAngleDoubleRight, FaCamera } from "react-icons/fa"
+import React, { useEffect, useState } from "react";
+import "../Components/MyPhotos.css";
+import {
+  FaAngleDoubleLeft,
+  FaAngleDoubleRight,
+  FaCamera,
+} from "react-icons/fa";
 
-import Header from "../Components/Header"
-import Sidebar from "../Components/Sidebar"
-import imageRef from "../Json Files/imagedata.json"
-import ImageSlider from "../Components/ImageSlider"
+import Header from "../Components/Header";
+import Sidebar from "../Components/Sidebar";
+import imageRef from "../Json Files/imagedata.json";
+import ImageSlider from "../Components/ImageSlider";
 
 function MyPhotos() {
-  const [group, setGroup] = useState("All")
-  const [filteredImages, setFilteredImages] = useState([])
-  const [selectedImg, setSelectedImg] = useState(null)
-  const [isGrpOpen, setIsGrpOpen] = useState(false)
+  const [group, setGroup] = useState("All");
+  const [filteredImages, setFilteredImages] = useState([]);
+  const [selectedImg, setSelectedImg] = useState(null);
+  const [isGrpOpen, setIsGrpOpen] = useState(false);
 
   const GroupButton = ({ name, handleSetgroup, groupActive }) => {
     return (
@@ -21,24 +25,24 @@ function MyPhotos() {
         }`}
         onClick={() => {
           // console.log('Click - ',e)
-          handleSetgroup(name)
-          setIsGrpOpen(!isGrpOpen)
-          setSelectedImg(null)
+          handleSetgroup(name);
+          setIsGrpOpen(!isGrpOpen);
+          setSelectedImg(null);
         }}
       >
         {/* {name.toUpperCase()} */}
         {name}
       </button>
-    )
-  }
+    );
+  };
 
   useEffect(() => {
     group === "All"
       ? setFilteredImages(imageRef)
       : setFilteredImages(
-          imageRef.filter((imageRef) => imageRef.group === group)
-        )
-  }, [group])
+          imageRef.filter((imageRef) => imageRef.group === group),
+        );
+  }, [group]);
 
   return (
     <>
@@ -223,7 +227,7 @@ function MyPhotos() {
                   src={image.url}
                   alt={image.caption}
                   onClick={() => {
-                    setSelectedImg(image.url)
+                    setSelectedImg(image.url);
                     // setImageCaption(image.caption)
                   }}
                 />
@@ -241,7 +245,7 @@ function MyPhotos() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default MyPhotos
+export default MyPhotos;

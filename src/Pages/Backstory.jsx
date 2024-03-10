@@ -1,6 +1,6 @@
-import Header from "../Components/Header"
-import Collapsible from "../Components/Collapsible"
-import Sidebar from "../Components/Sidebar"
+import Header from "../Components/Header";
+import Collapsible from "../Components/Collapsible";
+import Sidebar from "../Components/Sidebar";
 // import Popout from "../Components/Popout"
 
 function Backstory() {
@@ -22,7 +22,7 @@ function Backstory() {
             A Decade that Shaped My Course
           </h1>
 
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             While I was busy dealing with the day-to-day events that were common
             throughout my high school and college years, things were happening
             in the world around me and lead me to that decision point in
@@ -31,7 +31,7 @@ function Backstory() {
           <h4 className=" mt-4 mb-3 max-w-[25ch] text-center  text-2xl font-bold italic ">
             May 1, 1960 - U.S. Spy Plane Shot Down over USSR
           </h4>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             The ongoing Cold War between the Soviet Union and the western
             allies, three major political assassinations, the nation-wide racial
             violence, and the escalation of the Vietnam War all played a major
@@ -48,7 +48,7 @@ function Backstory() {
               U2 Spy Plane Photo credit: U.S. Air Force
             </span>
           </div>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             On May 1, 1960, four months before I started high school, a CIA U-2
             Spy Plane, flown by Francis Gary Powers, was shot down by the Soviet
             air defense forces while performing photographic aerial
@@ -57,7 +57,7 @@ function Backstory() {
             came at a very sensitive time in the developing Cold War between the
             United States and the Soviet Union.
           </p>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             The single-seated aircraft had successfully evaded Soviet air
             defense capabilities on several previous missions. Powers had taken
             off from Peshawar, Pakistan, and crashed near Sverdlovsk after being
@@ -70,7 +70,7 @@ function Backstory() {
           <h4 className=" mt-4 mb-3 max-w-[25ch] text-center  text-2xl font-bold italic ">
             October 16 to November 20, 1962 - Cuban missile crisis
           </h4>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             On October 17, 1962, every network brought news that a U.S. U2 spy
             plane photographed evidence that as many as 32 Soviet-built
             medium-range ballistic missiles capable of delivering a nuclear
@@ -92,7 +92,7 @@ function Backstory() {
               nautical miles (NM). (Public Domain))
             </span>
           </div>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             The President received advice on the most appropriate response
             ranging from a direct attack on the missile sites to a blockade of
             the island nation. Arguing for the direct attack approach, Air Force
@@ -103,7 +103,7 @@ function Backstory() {
             If they don't do anything in Cuba they'll certainly do something in
             Berlin."
           </p>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             Secretary of Defense Robert McNamara proposed that a blockade of
             Cuba would put pressure on the Soviets but give them time to
             reconsider and deescalate. It would also provide the U.S. with time
@@ -124,7 +124,7 @@ function Backstory() {
             </span>
           </div>
 
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             President Kennedy decided on a plan based upon McNamara's advice and
             ordered a total naval "quarantine" of Cuba, declaring that the U.S.
             would prevent any ship carrying offensive weapons from reaching
@@ -138,7 +138,7 @@ function Backstory() {
               {/* <div className="-ml-[140px] text-black w-[400px] h-[135px]  py-[20px]  text-[18px] 	"> */}
               <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black  ">
                 {/* [&#8224;] */}
-                <p className="para-fnote">
+                <p className="mx-auto   p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-">
                   “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
                   <br />
                   <a
@@ -153,7 +153,7 @@ function Backstory() {
                     https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis
                   </a>
                 </p>
-                <p className="para-fnote">
+                <p className="mx-auto   p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-">
                   Britannica, T. Editors of Encyclopaedia. "Cuban missile
                   crisis." Encyclopedia Britannica, December 20, 2021.
                   <br />
@@ -168,7 +168,7 @@ function Backstory() {
                     https://www.britannica.com/event/Cuban-missile-crisis
                   </a>
                 </p>
-                <p className="para-fnote">
+                <p className="mx-auto   p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-">
                   Schwarz, Benjamin, Janury/February 2013 Issue, The Real Cuban
                   Missile Crisis.The Atlantic.
                   <br />
@@ -183,7 +183,7 @@ function Backstory() {
                     https://www.theatlantic.com/magazine/archive/2013/01/the-real-cuban-mssile-crisis/309190/
                   </a>
                 </p>
-                <p className="para-fnote">
+                <p className="mx-auto   p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-">
                   Arnold, Mark, May 5, 2013 Issue, JFK and the Road to Dallas:
                   The Cuban Missile Crisis-Part II.
                   <br />
@@ -209,7 +209,7 @@ function Backstory() {
             ignite a decade of racial violence.
           </h4>
 
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             The city of Birmingham, Alabama was no stranger to
             racially-motivated bombings. There were 48 such bombings reported in
             Birmingham between 1948 in 1957. In one month in 1957, four black
@@ -251,7 +251,7 @@ function Backstory() {
             </span>
           </div>
 
-          <p className="para-std ">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] ">
             On Sunday, September 15, 1963, at the 16th street Baptist Church in
             Birmingham, AL, four young girls, 14-year-olds Addie Mae Collins,
             Denise McNair, Carole Robertson, and 11-year-old Cynthia Wesley,
@@ -262,7 +262,7 @@ function Backstory() {
             <Collapsible icon="&#8224;">
               <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black">
                 {/* [&#8224;] */}
-                <p className="para-fnote">
+                <p className="mx-auto   p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-">
                   16th Street Baptist Church Bombing, National Parks Service.
                   <a
                     target="blank"
@@ -312,7 +312,7 @@ function Backstory() {
             Dallas, TX,
           </h4>
 
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             On November 22, 1963, President John F. Kennedy was assassinated in
             Dallas, TX. I remember being in the Ridgewood, NJ Highschool
             cafeteria when a news broadcast could suddenly be heard over the PA
@@ -320,7 +320,7 @@ function Backstory() {
             stunned silence as we all tried to make sense of what we heard
             <Collapsible icon="]&#8224;]">
               <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black">
-                <p className=" para-fnote">
+                <p className=" mx-auto   p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-">
                   Robert Siegel, "Walter Cronkite On The Assassination Of John
                   F. Kennedy," NPR News All Things Considered, Washington, DC,
                   November 22, 2013 4:22 PM ET.
@@ -359,7 +359,7 @@ function Backstory() {
           <h4 className=" mt-4 mb-3 max-w-[25ch] text-center  text-2xl font-bold italic ">
             1963 - 1968 Racial Violence, Expanding War, and Assaassinations
           </h4>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             Over the next five years, riots fueled by racial injustice rocked
             the U.S. Riots began in Birmingham, Alabama (1963), reignited in
             Harlem in New York City (1964), spread to Watts in Los Angeles
@@ -385,11 +385,11 @@ function Backstory() {
             August, 1964 - U.S. Involvement in the Vietnam War Dramatically
             Escalates
           </h4>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             The Vietnam war
             <Collapsible icon="]&#8224;]">
               <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black ">
-                <p className="para-fnote">
+                <p className="mx-auto   p-2 w-[calc(100%-40px)] max-w-[600px]  text-sm	text-black  font-">
                   Wikipedia contributors, "Vietnam War," Wikipedia, The Free
                   Encyclopedia,
                   https://en.wikipedia.org/w/index.php?title=Vietnam_War&oldid=1102834758
@@ -428,7 +428,7 @@ function Backstory() {
               US Soldiers in Vietnam - Wikipedia (Public Domain)
             </span>
           </div>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             US troop involvement in Vietnam escalated from approximately 23,000
             US advisors in early 1964 to over 184,000by the end of that year.
             This dramatic increase was in response to an alleged attack on two
@@ -441,7 +441,7 @@ function Backstory() {
             became the legal basis for the Johnson and Nixon Administrations’
             prosecution of the Vietnam War.
           </p>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             Every year onward, there was significant build-up of U.S forces,
             despite little progress. U.S Secretary of Defense Robert McNamara,
             one of the principal architects of the war, began expressing doubts
@@ -464,7 +464,7 @@ function Backstory() {
               Museum (Public Domain)
             </span>
           </div>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             The Tet Offensive of 1968 showed the lack of progress with these
             doctrines. With the VC and PAVN mounting large-scale urban
             offensives throughout 1968, U.S domestic support for the war began
@@ -489,7 +489,7 @@ function Backstory() {
             />
             <span className="text-sm leading-none">NY Times</span>
           </div>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             The ARVN, buttressed by said U.S. support, stopped the largest and
             first mechanized PAVN offensive to date during the Easter Offensive
             of 1972.The offensive resulted in heavy casualties on both sides and
@@ -497,7 +497,7 @@ function Backstory() {
             failed to recapture all territory, leaving its military situation
             difficult.
           </p>
-          <p className="para-std">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             The Paris Peace Accords of January 1973 saw all U.S forces
             withdrawn; the Case–Church Amendment, passed by the U.S Congress on
             15 August 1973, officially ended direct U.S military involvement.
@@ -510,7 +510,7 @@ function Backstory() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Backstory
+export default Backstory;

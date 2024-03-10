@@ -1,0 +1,29 @@
+
+
+<h1 className="mx-[20px] font-bold  text-center text-2xl tablet:text-3xl ">
+
+<h2 className="  my-3 text-center font-bold text-2xl  tablet:text-2xl">
+
+<h3 className=" mx-[20px] my-3  font-bold text-center text-2xl italic">
+
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
+
+            Unlike many typical high schools in northern New Jersey, Ridgewood high school only covered grades 10 through 12. Grades nine through
+            11 were housed in two middle school buildings: the Benjamin Franklin
+            school, and the George Washington school. Having attended a private
+            school through eighth grade, I spent my “freshman” year of high
+            school at George Washington school, about a mile from our house.
+          </p>
+          <div className=" my-5 mx-auto  w-[calc(100%-40px)] max-w-[740px]	">
+            
+            <img
+              className="border-2 border-black "
+              src="images/GW.jpg"
+              alt="Riodgewood High"
+              width="980px"
+            />
+            <span className="text-sm leading-none">
+              George Washington Middle School, Ridgewood, NJ
+            </span>
+          </div>
+          <p className="mx-auto my-3 p-2 w-[calc(100%-40px)] max-w-[600px] font-normal text-xl ">
