@@ -15,7 +15,7 @@ function Archives() {
             Berlin Observer Archives
           </h2>
 
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] ">
             Close to 900 PDFs on this site were downloaded from the
             website:Berlin Observer.com with expressed permission of the site
             administrator (webmaster). The PDFs were contributed by former
@@ -30,23 +30,25 @@ function Archives() {
             through 2023. For this reason, I have downloaded all editions in the
             archive and make them accessible through this "Archives" page.
           </p>
-          <p className=" mx-[20px]  max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
-            Many important historical events and persons are captured in the 49
-            years of continuous publication of the Berlin Observer and its
-            predeces publications. The pictures and stories preserve first-hand
-            accounts of the destruction in Berlin immediately after the end of
-            the war, photos of "General of the Army" Dwight D. Eisenhower
-            meeting with Russian leaders, references to the Nuremberg trials,
-            JFK's Thanksgiving message printed on the day he was assassinated by
-            editors who were not yet aware of the tragedy, visits by Henry Cabot
-            Lodge, Clark Clifford, Vice President Lyndon Johnson (at the time
-            that the Berlin Wall was being constructed), President Richard
-            Nixon, Vice President George H. W. Bush, and President Ronald
-            Reagan’s "Mr. Gorbachev, tear down this wall!" speech. The final
-            publication on July 15, 1994, features President Bill Clinton’s
-            "casing the colors" of the Berlin Brigade, which officially ended
-            the Brigade’s mission in Berlin. That final issue also presents a
-            retrospective on the long journey of the brigade.
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] ">
+            Many important historical events and persons related to Berlin
+            during this period are captured in the 49 years of continuous
+            publication of the Berlin Observer and its predecessor publications.
+            The pictures and stories preserve first-hand accounts of the
+            destruction in Berlin immediately after the end of the war, photos
+            of "General of the Army" Dwight D. Eisenhower meeting with Russian
+            leaders, references to the Nuremberg trials, JFK's 1963 Thanksgiving
+            message printed unwittingly on the day he was assassinated, visits
+            by Henry Cabot Lodge, Clark Clifford, Vice President Lyndon Johnson
+            (at the time that the Berlin Wall was being constructed), President
+            Richard Nixon, Vice President George H. W. Bush, and President
+            Ronald Reagan’s "Mr. Gorbachev, tear down this wall!" speech.
+          </p>
+          <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] ">
+            The final publication on July 15, 1994, features President Bill
+            Clinton’s "casing the colors" of the Berlin Brigade, which
+            officially ended the Brigade’s mission in Berlin. That final issue
+            also presents a retrospective on the long journey of the brigade.
           </p>
         </div>
 

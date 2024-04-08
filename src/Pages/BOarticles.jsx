@@ -1,15 +1,15 @@
 // import React, { useState } from "react";
-import { useNavigate, Link, useLocation } from "react-router-dom"
-import Header from "../Components/Header"
-import Sidebar from "../Components/Sidebar"
-import Footnote from "../Components/Footnote"
-import { FaCross, FaStarOfLife } from "react-icons/fa6"
-import articles from "../Json Files/my_BO_articles.json"
-import ArticlePages from "../Components/ArticlePages"
+import { useNavigate, Link, useLocation } from "react-router-dom";
+import Header from "../Components/Header";
+import Sidebar from "../Components/Sidebar";
+import Footnote from "../Components/Footnote";
+import { FaCross, FaStarOfLife } from "react-icons/fa6";
+import articles from "../Json Files/my_BO_articles.json";
+import ArticlePages from "../Components/ArticlePages";
 
 function BOarticles() {
-  const navigate = useNavigate()
-  const location = useLocation()
+  const navigate = useNavigate();
+  const location = useLocation();
   // console.log("location", location)
   return (
     <>
@@ -53,7 +53,7 @@ function BOarticles() {
           <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             Thanks to the efforts of an unnamed webmaster and contributions from
             "... former Berlin Observer staffers and Veterans of the Berlin
-            Brigade..." many PDF copies of Berlin Observer editions were
+            Brigade..." many PDF copies of the Berlin Observer editions were
             preserved on the website:
             <a
               className="reflink text-blue-600 underline visited:text-purple-600"
@@ -78,7 +78,7 @@ function BOarticles() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default BOarticles
+export default BOarticles;
