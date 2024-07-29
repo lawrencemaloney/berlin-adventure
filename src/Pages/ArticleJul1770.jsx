@@ -1,7 +1,7 @@
-import Sidebar from "../Components/Sidebar"
-import Footnote from "../Components/Footnote"
-import { FaCross, FaStarOfLife } from "react-icons/fa6"
-import Artfooter from "../Components/Artfooter"
+import Sidebar from "../Components/Sidebar";
+import Footnote from "../Components/Footnote";
+import { FaCross, FaStarOfLife } from "react-icons/fa6";
+import Artfooter from "../Components/Artfooter";
 
 function ArticleJul1770() {
   return (
@@ -26,15 +26,6 @@ function ArticleJul1770() {
           The Importance of Being Published
         </h2>
 
-        <p className="  my-3 p-1  max-w-[60ch] font-normal text-[1.4375rem]">
-          My desk was in a large open area in the headquarters building of the
-          2nd Battalion 6th Infantry, in close proximity to the battalion
-          commander’s office. The battalion commander, Lt. Colonel Daniel J.
-          Tobin, made it clear to me that my main job was to get as many feature
-          articles extolling accomplishments of the battalion published in the
-          Berlin Observer. This was not a suggestion! He did not want to see me
-          “hanging around the office”!
-        </p>
         <h2 className="mx-5 text-center font-bold text-2xl mt-3  tablet:text-[24px]">
           My First Feature Article
         </h2>
@@ -184,7 +175,7 @@ function ArticleJul1770() {
 
       {/* </div> */}
     </>
-  )
+  );
 }
 
-export default ArticleJul1770
+export default ArticleJul1770;
