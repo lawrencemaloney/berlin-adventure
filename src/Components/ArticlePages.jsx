@@ -17,7 +17,8 @@ function ArticlePages() {
           <h1 className="mx-5 font-bold mt-2 mb-4 text-center text-2xl tablet:text-[30px]">
             My Articles
           </h1>
-          <p className="  my-3 p-1  max-w-[60ch] font-normal text-[1.4375rem]">
+
+          <p className=" mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
             My battalion commander, Lt. Colonel Daniel J. Tobin, made it clear
             to me that my main job was to get feature articles extolling the
             battalion's accomplishments published in the Berlin Observer as
