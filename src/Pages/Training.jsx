@@ -40,7 +40,7 @@ function Training() {
 
         <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
           We arrived after dark and were directed into a building where we were
-          given uniforms and other items needed for basic training. I guess we
+          given uniforms and other items needed for basic training. I guess we          
           must have been fed, although I don't remember it. I do remember being
           roused out of bed early the next morning while it was still dark. I
           got up right away but some who didn't were not so gently reminded that
@@ -92,13 +92,13 @@ function Training() {
                 className="
                   text-blue-600
                   visited:text-purple-600"
-              >
-                https://en.wikipedia.org/w/index.php?title=Officer_Candidate_School_(United_States_Army)&oldid=1089478766
-              </a>
-              {/* <br /> */}
-            </p>
-          </Collapsible>
-        </p>
+                >
+                  https://en.wikipedia.org/w/index.php?title=Officer_Candidate_School_(United_States_Army)&oldid=1089478766
+                </a>
+                {/* <br /> */}
+              </p>
+            </Collapsible>
+          </p>
 
         <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]  ">
           As a direct result of scores on the tests, I was among 3 or 4 out of
