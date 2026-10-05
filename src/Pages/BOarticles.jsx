@@ -4,7 +4,7 @@ import Header from "../Components/Header";
 import Sidebar from "../Components/Sidebar";
 import Footnote from "../Components/Footnote";
 import { FaCross, FaStarOfLife } from "react-icons/fa6";
-import articles from "../Json Files/my_BO_articles.json";
+import * as articlesData from "../Json Files/my_BO_articles.json";
 import ArticlePages from "../Components/ArticlePages";
 
 function BOarticles() {

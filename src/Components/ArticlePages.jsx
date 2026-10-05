@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import articles from "../Json Files/my_BO_articles.json";
+import * as articlesData from "../Json Files/my_BO_articles.json";
+
 import { useNavigate, Link, useLocation } from "react-router-dom";
 // import articles from "../Json Files/my_BO_articles.json"
 
