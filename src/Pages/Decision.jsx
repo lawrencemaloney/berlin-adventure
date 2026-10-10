@@ -16,11 +16,11 @@ function Decision() {
       <Sidebar />
 
       <div className="z-20 mx-auto max-w-2xl flex h-[100%] flex-col items-center  ">
-        <h1 className="mx-5 font-bold mt-2 mb-4 text-center text-2xl tablet:text-[30px]">
+        <h1 className="mx-5 font-serif font-semibold mt-2 mb-4 text-center text-2xl tablet:text-[30px]">
           The Vietnam War Overshadowed a Generation
         </h1>
 
-        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] ">
+        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal leading-relaxed text-[1.4375rem] ">
           For draft-eligible young men in the mid-to-late 1960s, the prospect of
           being called to serve in the increasingly unpopular Vietnam War loomed
           like a dark cloud over the horizon. At the very least, it was an
@@ -28,7 +28,7 @@ function Decision() {
           your life.{" "}
         </p>
 
-        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] ">
+        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal leading-relaxed text-[1.4375rem] ">
           Until the law changed in 1971, a young man could qualify for a
           deferment for as long as he was a full-time student in any field of
           study. Many chose to stay in school as long as possible, hoping that

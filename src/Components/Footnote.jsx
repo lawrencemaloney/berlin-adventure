@@ -8,7 +8,7 @@ const Footnote = ({ number, text }) => {
   }
 
   return (
-    <span className="relative inline-block   ">
+    <span className="relative inline ">
       <button
         className=" text-black   -ml-1 mr-1  align-super text-xs  px-0.5 -py-1 focus:outline-none"
         onClick={toggleFootnote}
