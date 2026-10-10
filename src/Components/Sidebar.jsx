@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+  import React, { useState } from "react"
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa"
 // import { isCompositeComponentWithType } from 'react-dom/test-utils';
@@ -15,20 +15,20 @@ export default function Sidebar() {
         ></FaBars>
       ) : (
         <FaTimes
-          className="mobileclose  fixed right-2 top-2 z-50 h-[18px] w-[18px] cursor-pointer  fill-red-400 stroke-2 tablet:h-[32px] tablet:w-[32px]"
+          className="mobileclose  fixed right-2 top-2 z-50 h-[18px] w-[18px] cursor-pointer  fill-[#9B473B] stroke-2 tablet:h-[32px] tablet:w-[32px]"
           onClick={() => setIsOpen(!isOpen)}
         ></FaTimes>
       )}
 
       <div
-        className={`navbar fixed top-0 right-0 z-40   h-full w-full  bg-[#ccc9bc] p-10 mobile:w-[63%] tablet:w-[35%]  ${
+        className={`navbar fixed top-0 right-0 z-40   h-full w-full  bg-[#E8E1D2] p-10 w-[85%] lg:w-[30%]  ${
           isOpen ? "translate-x-0" : "translate-x-full  "
         } duration-300 ease-in-out`}
       >
-        <p className="-mt-6  text-3xl font-bold  ">Pages</p>
+        <p className="-mt-6  text-3xl font-serif font-semibold  ">Pages</p>
 
         <nav className="">
-          <div className="mt-4 ml-4 flex flex-col  space-y-3 text-2xl leading-relaxed	  font-bold landscape:mt-6 landscape:grid landscape:grid-cols-2 mobile:landscape:flex ">
+          <div className="mt-4 ml-4 flex flex-col  space-y-3 text-2xl leading-relaxed	  font-medium landscape:mt-6 landscape:grid landscape:grid-cols-2 mobile:landscape:flex ">
             <CustomLink to="/Decision">
               &#8883; The Decision to Enlist
             </CustomLink>
@@ -40,7 +40,7 @@ export default function Sidebar() {
 
             <CustomLink to="/BOarticles">&#8883; My Journalism</CustomLink>
             <CustomLink to="/MyPhotos">&#8883; My Photos</CustomLink>
-            <CustomLink to="/Backstory">&#8883; The Backstory </CustomLink>
+{/* <CustomLink to="/Backstory">&#8883; The Backstory</CustomLink> */}
             <CustomLink to="/PostWW2">&#8883; Hot War/Cold War</CustomLink>
             <CustomLink to="/Archives">&#8883; Archives</CustomLink>
             <CustomLink to="/About">&#8883; About</CustomLink>
@@ -56,7 +56,7 @@ function CustomLink({ to, children, ...props }) {
   const isActive = useMatch({ path: resolvedPath.pathname, end: true })
 
   return (
-    <span className={isActive ? " text-red-600" : "text-black	 "}>
+    <span className={isActive ? "text-[#9B473B]" : "text-black	 "}>
       <Link to={to} {...props}>
         {children}
       </Link>
