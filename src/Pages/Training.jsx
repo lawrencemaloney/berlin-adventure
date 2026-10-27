@@ -23,12 +23,11 @@ function Training() {
           couple. The rest of us were loaded onto a bus and driven about 80
           miles to Fort Dix.
         </p>
-        <div className="mt-4 max-w-[45ch] tablet:max-w-[75ch]">
+        <div className="mt-4 w-full max-w-[750px]">
           <img
-            className="border-2 border-black "
             src="images/FT dix induction cropped.jpg"
             alt="Ft Dix Reception 1968"
-            width="980px"
+            className="w-full h-auto border-2 border-black"
           />
           <span className="text-sm leading-none ">
             (Chairborne, Alan S. - WITF.org)
@@ -51,10 +50,9 @@ function Training() {
           about 25% of the trainees were draftees and had not chosen to be
           there, but they hadn’t shirked their responsibility either.
         </p>
-        <div className="mt-4 max-w-[45ch] tablet:max-w-[75ch]">
+        <div className="mt-4 w-full max-w-[750px]">
           <img
-            className=" border-2 border-black "
-            width="980px"
+            className="w-full h-auto border-2 border-black"
             src="images/cryin shame.jpg"
             alt="Army haircut"
           />
@@ -110,10 +108,9 @@ function Training() {
           decision would not be known until I was more than half-way through my
           Advanced Infantry Training.
         </p>
-        <div className="mt-4 max-w-[45ch] tablet:max-w-[75ch]">
+        <div className="mt-4 mx-auto w-full max-w-[750px]">
           <img
-            className="border-2 border-black "
-            width="980px"
+            className="w-full h-auto border-2 border-black"
             src="images/basic training morning march big.jpg"
             alt="Army moring march"
           />
@@ -135,13 +132,11 @@ function Training() {
           shape”.
         </p>
 
-        <div className=" mt-4 max-w-[45ch] tablet:max-w-[75ch]">
-          <img
-            className=" border-2 border-black "
-            width="980px"
-            src="images/basic training id_pistol_m1911_700_06.jpg"
-            alt="Army pistol practice"
-          />
+        <div className="mt-4 mx-auto w-full max-w-[750px]">          <img
+          className="w-full h-auto border-2 border-black"
+          src="images/basic training id_pistol_m1911_700_06.jpg"
+          alt="Army pistol practice"
+        />
           <span className="text-sm leading-none ">
             (U.S. Army Pistol Training - National Archives and Records
             Administration)
@@ -160,13 +155,10 @@ function Training() {
         <h2 className="  mt-3 text-center  text-3xl">
           Fort Lewis - Advanced Infantry Training
         </h2>
-        <div className=" mt-4 max-w-[45ch] tablet:max-w-[75ch]">
-          <img
-            className="border-2 border-black "
-            width="980px"
-            src="images/Ft-Lewis-Mt-R-cropped.jpg"
-            alt="Ft. Lewis "
-          />
+        <div className="mt-4 mx-auto w-full max-w-[750px]">          <img
+          className="w-full h-auto border-2 border-black" src="images/Ft-Lewis-Mt-R-cropped.jpg"
+          alt="Ft. Lewis "
+        />
           <span className="text-sm leading-none ">(32nd-division.org)</span>
         </div>
 
@@ -187,13 +179,11 @@ function Training() {
           Watch that round, adjust again, etc.
         </p>
 
-        <div className=" mt-4 max-w-[45ch] tablet:max-w-[75ch]">
-          <img
-            className=" border-2 border-black "
-            width="980px"
-            src="images/81mm_b (BW).jpg"
-            alt="81mm Mortar "
-          />
+        <div className="mt-4 mx-auto w-full max-w-[750px]">          <img
+          className="w-full h-auto border-2 border-black"
+          src="images/81mm_b (BW).jpg"
+          alt="81mm Mortar "
+        />
           <span className="text-sm leading-none ">(81mm Mortar-Wikipedia)</span>
         </div>
 
@@ -215,13 +205,11 @@ function Training() {
           played “war games” that attempted to simulate what it might be like on
           patrol in Vietnam.
         </p>
-        <div className="mt-4 max-w-[45ch] tablet:max-w-[75ch]">
-          <img
-            className=" border-2 border-black "
-            width="980px"
-            src="images/Berlin Brigade in Field (16).jpg"
-            alt="81mm Mortar "
-          />
+        <div className="mt-4 mx-auto w-full max-w-[750px]">          <img
+          className="w-full h-auto border-2 border-black"
+          src="images/Berlin Brigade in Field (16).jpg"
+          alt="81mm Mortar "
+        />
           <span className="text-sm leading-none ">
             (Live Fire Training - Hohenfels, Germany by me)
           </span>
@@ -251,13 +239,11 @@ function Training() {
           1- remove the pin, 2- throw the grenade as far as you can, 3 – duck
           below the front wall.
         </p>
-        <div className="mt-4 max-w-[45ch] tablet:max-w-[75ch]">
-          <img
-            className="border-2 border-black "
-            width="980px"
-            src="images/Alan-Shenk-grenade-cropped_2.jpg"
-            alt="Grenade Training"
-          />
+        <div className="mt-4 mx-auto w-full max-w-[750px]">          <img
+          className="w-full h-auto border-2 border-black"
+          src="images/Alan-Shenk-grenade-cropped_2.jpg"
+          alt="Grenade Training"
+        />
           <span className="text-sm leading-none ">
             (Grenade Pit - Chairborne, Alan S. - WITF.org)
           </span>
@@ -281,13 +267,11 @@ function Training() {
         <h3 className=" mt-4  mb-3 text-center text-2xl underline">
           Other Things I Learned at Ft. Lewis
         </h3>
-        <div className=" mt-4 max-w-[45ch] tablet:max-w-[75ch]">
-          <img
-            className=" border-2 border-black "
-            width="980px"
-            src="images/Potato-Peeling.jpg"
-            alt="KP"
-          />
+        <div className="mt-4 mx-auto w-full max-w-[750px]">          <img
+          className="w-full h-auto border-2 border-black"
+          src="images/Potato-Peeling.jpg"
+          alt="KP"
+        />
           <span className="text-sm leading-none ">(U. S. Army)</span>
         </div>
 
@@ -323,13 +307,11 @@ function Training() {
           group (and one of only three men in the 300+ man training company) who
           knew what their orders would be for assignments outside of Vietnam.
         </p>
-        <div className=" mt-4 max-w-[45ch] tablet:max-w-[75ch]">
-          <img
-            className="border-2 border-black "
-            width="980px"
-            src="images/basic training graduation 1970 (BW).jpg"
-            alt="Basic Grad"
-          />
+        <div className="mt-4 mx-auto w-full max-w-[750px]">          <img
+          className="w-full h-auto border-2 border-black"
+          src="images/basic training graduation 1970 (BW).jpg"
+          alt="Basic Grad"
+        />
           <span className="text-sm leading-none ">
             (U.S. Army Training Graduation)
           </span>
