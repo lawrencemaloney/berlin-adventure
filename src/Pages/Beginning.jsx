@@ -10,10 +10,10 @@ function InBerlin() {
       <Header />
       <Sidebar />
       <div className="berlinwrap z-20 mx-auto  flex h-[100%] flex-col items-center  ">
-        <h2 className="mx-5 text-center font-bold text-2xl mt-3  tablet:text-[24px]">
+        <h1 className="mx-[20px] mt-2 mb-6 text-center text-2xl tablet:text-[30px] font-serif font-bold">
           Arrival in Germany
-        </h2>
-        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] ">
+        </h1>
+        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] leading-relaxed">
           With orders in hand, I arrived at an Army headquarters building in
           downtown Frankfurt. I was traveling alone, so I think I must have
           taken a taxi from the airport. I remember being driven through the
@@ -22,19 +22,19 @@ function InBerlin() {
           pictured below.
         </p>
 
-        <div className=" my-5 mx-auto rounded-lg border-2 border-black w-[calc(100%-40px)] max-w-[600px] text-[14px] leading-5	">
+        <div className=" my-5 mx-auto rounded-lg border-2 border-black w-[calc(100%-40px)] max-w-[750px] text-[14px] leading-5	">
           <img
-            className="border-2 border-black"
+            className="w-full h-auto"
             src="..\media\US Army Building in Frankfurt Germany 1970.jpg"
             alt="Army building in Frankfurt"
-            width="880px"
+
           />
           <span className="text-sm leading-none">
             US Army headquarters Building -Frankfurt, Germany 1970
           </span>
         </div>
 
-        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] ">
+        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] leading-relaxed">
           Being my first time out of the U.S., I was in awe of the building and,
           especially, the courtyard. I was in Frankfurt for only a few hours
           when I was given orders to travel to Berlin and report to the 2nd
@@ -60,12 +60,11 @@ function InBerlin() {
           from the 1930s. It’s hard to imagine that just 25 years before, this
           peaceful landscape was ravaged by war.”
         </p>
-        <div className=" my-5 mx-auto rounded-lg border-2 border-black w-[calc(100%-40px)] max-w-[600px] text-[14px] leading-5	">
+        <div className=" my-5 mx-auto rounded-lg border-2 border-black w-[calc(100%-40px)] max-w-[750px] text-[14px] leading-5	">
           <img
-            className="border-2 border-black"
+            className="w-full h-auto"
             src="..\media\duty train frankfurt berlin (cropped).jpg"
             alt="Army train to Frankfurt"
-            width="880px"
           />
           <span className="text-sm leading-none">
             Ku-damm Strasse & Kaiser Wilhelm Memorial, Berlin Germany c. 1970
@@ -75,7 +74,7 @@ function InBerlin() {
         <h2 className="mx-5 text-center font-bold text-2xl mt-3  tablet:text-[24px]">
           Arrival in Germany
         </h2>
-        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] ">
+        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] leading-relaxed">
           My first memory of Berlin is sitting in a small office at McNair
           Barracks being inter by Sargent First Class Ed LeClair who was in
           charge of assigning personnel within the 2nd Battalion, 6th Infantry,
@@ -83,9 +82,9 @@ function InBerlin() {
           experience based upon my dealings with sergeants heretofore).
         </p>
 
-        <div className="my-5 mx-auto rounded-lg border-2 border-black w-[calc(100%-40px)] max-w-[600px] text-[14px] leading-5	">
+        <div className="my-5 mx-auto rounded-lg border-2 border-black w-[calc(100%-40px)] max-w-[750px] text-[14px] leading-5	">
           <img
-            className="border-2 border-black "
+            className="w-full h-auto"
             src="images\Sgt LeClair mod 1 copy 1.webp"
             alt="Army Sgt."
             width="980px"
@@ -95,7 +94,7 @@ function InBerlin() {
           </span>
         </div>
 
-        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] ">
+        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] leading-relaxed">
           Looking at my records, he noticed that I had a degree in
           communications and asked if I would be interested in the recently
           vacated position of Battalion Public Information Office (PIO) clerk,
@@ -106,7 +105,7 @@ function InBerlin() {
 
         <h3 className=" mb-3  text-center  text-2xl">Getting Settled</h3>
 
-        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem]">
+        <p className="mx-auto my-3 p-1 w-[calc(100%-3em)] max-w-[35em] font-normal text-[1.4375rem] leading-relaxed">
           Sgt. LeClair assigned me to the Headquarters Company for reporting
           purposes but for billiting purposes I was assigned the Company B.
           McNair Barracks "Berlin Brigade" where I served as a Public
@@ -114,12 +113,11 @@ function InBerlin() {
           1971.
         </p>
 
-        <div className="my-5 mx-auto rounded-lg border-2 border-black w-[calc(100%-40px)] max-w-[600px] text-[14px] leading-5">
+        <div className="my-5 mx-auto rounded-lg border-2 border-black w-[calc(100%-40px)] max-w-[750px] text-[14px] leading-5">
           <img
-            className="border-2 border-black "
-            src="images\mcnair-barracks1_bw cropped resized.jpg"
+            className="w-full h-auto" src="images\mcnair-barracks1_bw cropped resized.jpg"
             alt="McNair Barracks in Berlin"
-            width="980px"
+
           />
           <span className="text-sm leading-none ">
             (U.S. Army McNair Barracks)
